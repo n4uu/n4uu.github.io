@@ -1,0 +1,59 @@
+name: pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  HUGO_VERSION: "0.139.0"
+  HUGO_SHA256: "d9214f82f2f2c01f8a8b803b1db891d15905361b0e007888a837d22d13cf1b8b"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: install hugo (pinned, checksum verified)
+        run: |
+          set -eu
+          f="hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+          curl -sSLo "$f" "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/$f"
+          echo "${HUGO_SHA256}  $f" | sha256sum -c -
+          tar -xzf "$f" hugo
+          sudo mv hugo /usr/local/bin/hugo
+          hugo version
+
+      - uses: actions/configure-pages@v5
+
+      - name: build
+        run: hugo --minify --environment production
+
+      - name: no drafts, no inline scripts
+        run: |
+          ! grep -rl "<script" public/
+          test -f public/index.xml
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

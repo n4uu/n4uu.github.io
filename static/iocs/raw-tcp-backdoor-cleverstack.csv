@@ -1,0 +1,10 @@
+type,value,role,first_seen,notes
+sha256,281d4d60fc99cf7f54819defb1c7c14b9202d46890936c4c6b9ebe3ddc75dd2f,backdoor,2026-07-10,MalwareBazaar parser.js
+sha256,6db4c3d2ab56227d36eff59d1dc9e13eadf9959996fab1e0b04591cc5e637d04,backdoor,2026-07-10,MalwareBazaar loader.js
+sha256,f101fda6093f12758efae630bc265d6bad71479249685b7503c05e707424a276,batch dropper,2026-07-10,MalwareBazaar windows.body
+ip:port,5.230.122[.]63:15152,C2,2026-07-10,plain TCP; newline-delimited JSON
+url,hxxp://cleverstack-ext30341.vercel[.]app/api/handle,payload delivery,2026-07-10,follow-up payloads for ss_exec
+url,hxxp://cleverstack-ext30341.vercel[.]app/api/g,payload delivery,2026-07-10,backdoor download; st=<token>
+url,hxxp://cleverstack-ext30341.vercel[.]app/api/package,staging,2026-07-10,package.json for the backdoor
+file,%TEMP%\vscode-ext.lock,host artifact,,single-instance lock
+file,%TEMP%\.git-checker,host artifact,,marker reported in the check-in

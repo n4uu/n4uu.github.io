@@ -1,0 +1,28 @@
+baseURL = "https://n4uu.github.io/"
+languageCode = "en"
+title = "n4uu"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+summaryLength = 40
+
+[params]
+description = "Malware analysis and threat hunting notes. Contagious Interview, Node.js implants, the tooling to take them apart."
+author = "n4uu"
+github = "https://github.com/n4uu"
+
+[markup.goldmark.renderer]
+unsafe = false
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = false
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 2
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+
+[permalinks]
+posts = "/:year/:slug/"

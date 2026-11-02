@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article>
+  <header class="post">
+    <h1>{{ .Title }}</h1>
+    {{ if eq .Section "posts" }}
+    <p class="meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+      · {{ .ReadingTime }} min read
+      {{ with .Lastmod }}{{ if ne (.Format "2006-01-02") ($.Date.Format "2006-01-02") }}· updated {{ .Format "2 January 2006" }}{{ end }}{{ end }}
+    </p>
+    {{ with .Params.tldr }}<p class="tldr"><strong>TL;DR</strong> {{ . | markdownify }}</p>{{ end }}
+    {{ end }}
+  </header>
+  {{ if and (eq .Section "posts") (gt (len .TableOfContents) 80) }}
+  <details class="toc"><summary>Contents</summary>{{ .TableOfContents }}</details>
+  {{ end }}
+  {{ .Content }}
+  {{ if eq .Section "posts" }}
+  <section class="cite">
+    <h2>Citing this</h2>
+    <p><code>n4uu, "{{ .Title }}", {{ .Date.Format "2 January 2006" }}. {{ .Permalink }}</code></p>
+    {{ with .Params.iocs }}<p>Indicators as CSV: <a href="{{ . | relURL }}">{{ path.Base . }}</a> (defanged).</p>{{ end }}
+  </section>
+  {{ end }}
+</article>
+{{ end }}
