@@ -12,7 +12,6 @@
 <meta name="color-scheme" content="light dark">
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
-<link rel="stylesheet" href="{{ "css/syntax.css" | relURL }}">
 <link rel="icon" href="data:,">
 {{ range .AlternativeOutputFormats -}}
 {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}

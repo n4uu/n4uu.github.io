@@ -2,6 +2,6 @@
 title: n4uu
 ---
 
-Malware analysis and threat hunting, mostly the Contagious Interview campaign: the Node.js implants it drops on developers' machines and the infrastructure behind them.
+I analyse malware aimed at software developers, mostly the North Korean "Contagious Interview" operation that hides implants in fake job interview projects, and write the tools I use to take it apart.
 
-Every post comes with hashes, indicators and detection content that was tested before it was published. The tooling is open source.
+Posts include sample hashes, indicators and the detection rules I tested against them.

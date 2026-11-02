@@ -4,15 +4,10 @@ build:
   list: never
 ---
 
-I'm n4uu. I take apart malware aimed at software developers, mostly the North Korean "Contagious Interview" operation that hides implants in fake job interview projects, and write tools to do it at scale.
+I'm n4uu. Most of my work is on the Node.js and Python implants of the Contagious Interview campaign: unpacking them, mapping their infrastructure and writing detections.
 
-What I publish follows a few rules:
+Samples in my posts are referenced by SHA-256 and are available on MalwareBazaar. I don't run them. I analyse them statically and emulate them in a sandbox that records what they try to do, and nothing I do sends traffic to the operators' infrastructure. Detection rules are tested against positive and negative cases before they go up. If someone documented something before me, the post links to them.
 
-- **Hashes or it didn't happen.** Every claim points to a sample anyone can pull from MalwareBazaar.
-- **Detections are tested.** Rules ship with positive and negative test cases and run in CI.
-- **Nothing runs.** Samples are analysed statically and emulated in a sandbox that records instead of acting. No traffic goes to attacker infrastructure.
-- **Credit where it's due.** If someone published it first, the post says so and links them.
+Indicators from each post are reported to ThreatFox, URLhaus and MalwareBazaar under this name.
 
-Indicators go to [ThreatFox](https://threatfox.abuse.ch/), [URLhaus](https://urlhaus.abuse.ch/) and [MalwareBazaar](https://bazaar.abuse.ch/) before or alongside each post.
-
-Code: [github.com/n4uu](https://github.com/n4uu).
+Code is on [GitHub](https://github.com/n4uu).

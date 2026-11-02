@@ -8,7 +8,7 @@
       · {{ .ReadingTime }} min read
       {{ with .Lastmod }}{{ if ne (.Format "2006-01-02") ($.Date.Format "2006-01-02") }}· updated {{ .Format "2 January 2006" }}{{ end }}{{ end }}
     </p>
-    {{ with .Params.tldr }}<p class="tldr"><strong>TL;DR</strong> {{ . | markdownify }}</p>{{ end }}
+    {{ with .Params.tldr }}<p class="abstract">{{ . | markdownify }}</p>{{ end }}
     {{ end }}
   </header>
   {{ if and (eq .Section "posts") (gt (len .TableOfContents) 80) }}
@@ -17,7 +17,7 @@
   {{ .Content }}
   {{ if eq .Section "posts" }}
   <section class="cite">
-    <h2>Citing this</h2>
+    <h2>Cite</h2>
     <p><code>n4uu, "{{ .Title }}", {{ .Date.Format "2 January 2006" }}. {{ .Permalink }}</code></p>
     {{ with .Params.iocs }}<p>Indicators as CSV: <a href="{{ . | relURL }}">{{ path.Base . }}</a> (defanged).</p>{{ end }}
   </section>

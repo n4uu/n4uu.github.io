@@ -14,8 +14,7 @@ github = "https://github.com/n4uu"
 unsafe = false
 [markup.highlight]
 noClasses = false
-codeFences = true
-guessSyntax = false
+codeFences = false
 [markup.tableOfContents]
 startLevel = 2
 endLevel = 2
