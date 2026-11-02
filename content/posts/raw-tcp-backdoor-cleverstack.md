@@ -78,7 +78,7 @@ exits while the lock is fresh.
 `IOPlatformUUID` from `ioreg` on macOS, `/etc/machine-id` on Linux, and the
 host name if any of those fails.
 
-**C2.** Host and port are constants, `SERVER_HOST = '5.230.122.63'` and
+**C2.** Host and port are constants, `SERVER_HOST = '5.230.122[.]63'` and
 `SERVER_PORT = process.env.SERVER_PORT || 15152`. The environment override
 is presumably for the operator's own testing. The connection is a bare
 `net.Socket` with a six-minute idle timeout before connecting and TCP
