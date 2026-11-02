@@ -1,7 +1,7 @@
 ---
 title: "A raw TCP backdoor behind the cleverstack git hook lure"
 date: 2026-11-02
-draft: true
+draft: false
 slug: "raw-tcp-backdoor-cleverstack"
 description: "Two files tagged BeaverTail turn out to be a Node.js backdoor that skips HTTP and Socket.IO and talks newline-delimited JSON over plain TCP. Protocol, delivery chain, detections."
 tldr: "A Node.js backdoor delivered through the Contagious Interview git hook lure talks newline-delimited JSON to `5.230.122[.]63:15152` over plain TCP and runs whatever the server sends. This post covers the delivery chain, the protocol and Suricata, Sigma and YARA rules tested against it."
