@@ -1,6 +1,6 @@
 ---
 title: "A raw TCP backdoor behind the cleverstack git hook lure"
-date: 2026-11-02
+date: 2026-11-02T18:23:00Z
 draft: false
 slug: "raw-tcp-backdoor-cleverstack"
 description: "Two files tagged BeaverTail turn out to be a Node.js backdoor that skips HTTP and Socket.IO and talks newline-delimited JSON over plain TCP. Protocol, delivery chain, detections."
