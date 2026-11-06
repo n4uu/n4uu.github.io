@@ -1,6 +1,7 @@
 ---
 title: "A raw TCP backdoor behind the cleverstack git hook lure"
 date: 2026-11-02T18:23:00Z
+lastmod: 2026-11-06
 draft: false
 slug: "raw-tcp-backdoor-cleverstack"
 description: "Two files tagged BeaverTail turn out to be a Node.js backdoor that skips HTTP and Socket.IO and talks newline-delimited JSON over plain TCP. Protocol, delivery chain, detections."
@@ -9,6 +10,9 @@ iocs: "/iocs/raw-tcp-backdoor-cleverstack.csv"
 ---
 
 ## Summary
+
+*Update, 6 November 2026: an earlier build from April with a different C2,
+see [the update](#update-6-november-2026) at the end.*
 
 Two JavaScript files uploaded to MalwareBazaar on 10 July 2026 and tagged
 BeaverTail don't behave like BeaverTail. They skip the HTTP endpoints that
@@ -28,6 +32,7 @@ the indicators below have since been submitted to both.
 | `281d4d60fc99cf7f54819defb1c7c14b9202d46890936c4c6b9ebe3ddc75dd2f` | parser.js | backdoor, 379-entry string array |
 | `6db4c3d2ab56227d36eff59d1dc9e13eadf9959996fab1e0b04591cc5e637d04` | loader.js | same backdoor, 312-entry string array |
 | `f101fda6093f12758efae630bc265d6bad71479249685b7503c05e707424a276` | windows.body | Windows batch stage that installs Node.js and fetches the backdoor |
+| `1bcf17ce99fc748536317f9d28fd79f103f6166c1e548c0255ede0b434314352` | parser.js | earlier build (April), 269-entry RC4 string array; added 6 November |
 
 ## How it was analysed
 
@@ -152,6 +157,7 @@ spawning `reg query ... MachineGuid` or `start /b cmd /c`.
 | Indicator | Role |
 | --- | --- |
 | `5.230.122[.]63:15152` | C2, plain TCP |
+| `144.172.105[.]138:15152` | C2 of the April build, plain TCP |
 | `hxxp://cleverstack-ext30341.vercel[.]app/api/handle` | follow-up payloads (`ss_exec ... URLS<param>`) |
 | `hxxp://cleverstack-ext30341.vercel[.]app/api/g?st=<token>` | backdoor download |
 | `hxxp://cleverstack-ext30341.vercel[.]app/api/package` | `package.json` for the backdoor |
@@ -184,6 +190,21 @@ tools the same way:
    minutes out, and the connection never shows up.
 
 All three are fixed, with tests, in crumble's main branch.
+
+## Update, 6 November 2026
+
+The YARA rule from this post is now in
+[signature-base](https://github.com/Neo23x0/signature-base/pull/434), and
+Florian Roth ran it over his collection and came back with more files. One of
+them has been on MalwareBazaar since 20 April as `parser.js` (`1bcf17ce…`),
+tagged only `js`. It is an earlier build of the same backdoor: same top-level
+names, same port, same `/api/handle` URL on the cleverstack Vercel app. Two
+things differ. The string array is RC4-encoded, so every lookup carries its
+own key, and the C2 is `144.172.105[.]138:15152`.
+
+That puts the backdoor at least three months before the July uploads. The
+rule caught it on the variable names alone, which is the point of keying on
+them. The address is in the indicators above and on ThreatFox.
 
 ## References
 

@@ -8,3 +8,5 @@ url,hxxp://cleverstack-ext30341.vercel[.]app/api/g,payload delivery,2026-07-10,b
 url,hxxp://cleverstack-ext30341.vercel[.]app/api/package,staging,2026-07-10,package.json for the backdoor
 file,%TEMP%\vscode-ext.lock,host artifact,,single-instance lock
 file,%TEMP%\.git-checker,host artifact,,marker reported in the check-in
+sha256,1bcf17ce99fc748536317f9d28fd79f103f6166c1e548c0255ede0b434314352,backdoor,2026-04-20,MalwareBazaar parser.js; earlier build; RC4 string array
+ip:port,144.172.105[.]138:15152,C2,2026-04-20,plain TCP; C2 of the April build
