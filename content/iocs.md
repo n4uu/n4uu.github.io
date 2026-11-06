@@ -6,11 +6,20 @@ build:
 
 Everything here was reported to [abuse.ch](https://abuse.ch/) (ThreatFox, URLhaus, MalwareBazaar) under this handle. Values are defanged; each post links a CSV.
 
+## Contagious Interview git hook lure (2026-11)
+
+| Indicator | Role | Platform |
+| --- | --- | --- |
+| `hxxps://parallelchain-labs[.]com/settings/mac?flag=2` | stage fetched by a post-checkout hook, piped to sh | URLhaus |
+| `hxxps://parallelchain-labs[.]com/settings/linux?flag=2` | stage fetched by a post-checkout hook, piped to sh | URLhaus |
+| `hxxps://parallelchain-labs[.]com/settings/windows?flag=2` | stage fetched by a post-checkout hook, piped to cmd | URLhaus |
+
 ## Contagious Interview raw TCP backdoor (2026-07)
 
 | Indicator | Role | Platform |
 | --- | --- | --- |
 | `5.230.122[.]63:15152` | C2, plain TCP | ThreatFox |
+| `144.172.105[.]138:15152` | C2 of an earlier build (April), plain TCP | ThreatFox |
 | `hxxp://cleverstack-ext30341.vercel[.]app/api/handle` | follow-up payloads | ThreatFox, URLhaus |
 | `hxxp://cleverstack-ext30341.vercel[.]app/api/g?st=...` | backdoor download | URLhaus |
 | `hxxp://cleverstack-ext30341.vercel[.]app/api/package` | package.json staging | ThreatFox |
