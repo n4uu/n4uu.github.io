@@ -1,6 +1,6 @@
 ---
 title: "What the npm registry remembers"
-date: 2026-11-02T16:19:00Z
+date: 2026-11-06T16:15:00Z
 draft: false
 slug: "what-the-npm-registry-remembers"
 description: "Removed npm releases leave a lot behind. Rebuilding the axios, easy-day-js and qix compromises from registry metadata alone, and turning that into a detector."
