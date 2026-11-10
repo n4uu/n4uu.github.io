@@ -1,7 +1,7 @@
 ---
 title: "Settle a payment: thirteen fake coding tests and one git hook"
 date: 2026-11-10
-draft: true
+draft: false
 slug: "settle-a-payment-git-hook"
 description: "Thirteen fake take-home tests, one per language, ship with a post-checkout hook that fires on the exact git command the README asks for. The payload is an OtterCookie loader I read without running any of it."
 tldr: "On 1 November someone uploaded 13 fake coding tests and 29 JavaScript files to MalwareBazaar. Every test ships with its `.git` folder and the same `post-checkout` hook, and the README asks the candidate to run `git checkout -b candidate/<your-name>`, which fires it. The JavaScript is an obfuscated loader carrying OtterCookie modules that talks to nine servers on ports 8085 to 8087. This post covers the lure, how I resolved the loader statically, what it carries and rules for both."
@@ -30,8 +30,8 @@ neither did my own rules in crumble. Rules for both are at the end.
 
 One caveat up front: I did not fetch the hook's URL, so I can't show that it
 serves these exact files. They were uploaded together, and the stage domain and
-all nine servers went to ThreatFox from the same reporter within the same
-minute on 2 November.
+all nine servers went to ThreatFox from the same reporter within 33 seconds
+on 2 November.
 
 ## The tests
 
@@ -65,8 +65,9 @@ on its own gives fragments like `});` and `}\n}\nc`. The strings only exist
 once the calls are resolved and the pieces glued back together.
 
 For the backdoor in the [last post](/2026/raw-tcp-backdoor-cleverstack/),
-crumble ran the sample's own decoder in an isolated VM. This time I did not
-want to run any of the sample's code, not even its decoder. So the resolver:
+crumble emulated the sample in goja with every outward-facing Node.js API
+stubbed. This time I wanted none of the sample's code to run, emulated or
+not. So the resolver:
 
 1. parses the file with Babel, as data only;
 2. reimplements both decoders;
@@ -130,7 +131,7 @@ ThreatFox has had `144.172.94[.]202:8087` tagged OtterCookie since 9 June.
 | `172.86.73[.]27` | 1 |
 
 Every build points all three ports at one host. CMPC9 reported all nine to
-ThreatFox on 2 November as unknown malware, in the same minute as the stage
+ThreatFox on 2 November as unknown malware, within 33 seconds of the stage
 domain. The exception is `144.172.94[.]202:8087`, reported in June.
 
 `u_k` runs from 101 to 110, and `144.172.94[.]202` has at least one build for
@@ -141,7 +142,7 @@ in the same /16 as four of these. That is a hosting choice, not attribution.
 
 ## Detection
 
-Three YARA rules, in a pull request to signature-base:
+Three YARA rules, in a [pull request to signature-base](https://github.com/Neo23x0/signature-base/pull/437):
 
 - a generic one for shell scripts that choose a payload with `uname` and pipe
   a remote script into both `sh` and `cmd`;
@@ -179,5 +180,6 @@ All 13 archives, the 29 loaders and the rest are in the CSV at the end.
 
 - MalwareBazaar, e.g. [the C++ test](https://bazaar.abuse.ch/sample/13e558bf5c80b16595161327d3104e11ae9fc8deab4b96917bb01278931891cf/) and [a loader](https://bazaar.abuse.ch/sample/d395f5cf1c1b049acaac87586787cdace39e8be51b9ffdedf90bad28088a43e5/).
 - ThreatFox entries for the stage domain and the nine C2s (CMPC9, 2 November) and for `144.172.94[.]202:8087` (June, tagged OtterCookie).
+- [Neo23x0/signature-base#437](https://github.com/Neo23x0/signature-base/pull/437), the YARA rules from this post.
 - [crumble](https://github.com/n4uu/crumble), whose OtterCookie collector rule matches the resolved code.
 - [A raw TCP backdoor behind the cleverstack git hook lure](/2026/raw-tcp-backdoor-cleverstack/), the same lure family earlier this year.
