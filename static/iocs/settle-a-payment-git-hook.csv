@@ -1,0 +1,77 @@
+type,value,role,first_seen,notes
+sha256,0db549cdeaae86daee36521d8068a329f165bc6666e4c218a8fc687cee8cbec3,fake coding test (zip),2026-11-01,ruby; 'Settle a payment'
+sha256,1110d14cb80fe2c197a950f753ac64c40dbcbff058db116985f5af12ee0e964f,fake coding test (zip),2026-11-01,csharp; 'Settle a payment'
+sha256,13e558bf5c80b16595161327d3104e11ae9fc8deab4b96917bb01278931891cf,fake coding test (zip),2026-11-01,cpp; 'Settle a payment'
+sha256,149a57a8daed7aea5e9f688245cb12c3a26179e394132f842a48e27fb96a76a7,fake coding test (zip),2026-11-01,kotlin; 'Settle a payment'
+sha256,15fe9481f9b2717e570c433a0c87b1ece1cf651476dcc48bd9c4568cbb24873e,fake coding test (zip),2026-11-01,swift; 'Settle a payment'
+sha256,1a1f8c738ddc6aa2708b7580773019c6a1ddfd75a48abd39247afdc64075c1be,fake coding test (zip),2026-11-01,solidity; 'Settle a payment'
+sha256,1deb54342a1eb87a6049decb67ba820e64b1bb9c333be62323a2c136080d2e41,fake coding test (zip),2026-11-01,java; 'Settle a payment'
+sha256,32fc1bd75a53ccd08c1371757d4a391b81a3a33ad5e70c4a3272eccd33a43f8a,fake coding test (zip),2026-11-01,haskell; 'Settle a payment'
+sha256,72f28e04a34f890a77566e51a306e65ee904db6ed7694d10860a6d803cb8d8d0,fake coding test (zip),2026-11-01,move; 'Settle a payment'
+sha256,8cd5a30dc6f7b5d986322aef0364ed57b7b8e7454cf4fe1e395fc53725357af5,fake coding test (zip),2026-11-01,javascript; 'Settle a payment'
+sha256,9add99a4f0d407db62b3d490ab0f5d1ed531aa8b26c12cb6269c72d1ffc50356,fake coding test (zip),2026-11-01,rust; 'Settle a payment'
+sha256,d02172eafc3087ac65daf24d8df12a7f0043c8bddad8c9db2664d35dbc5e4067,fake coding test (zip),2026-11-01,go; 'Settle a payment'
+sha256,f04be083dbd383c649376e0cf708d5f27dc7b58fff50593157179102bb5e32d7,fake coding test (zip),2026-11-01,python; 'Settle a payment'
+sha256,0f08f08737dd5b6dfd76f396e361b7d795156888883fa89139a73b9934c64a24,post-checkout hook,2026-11-01,same file in all 13 tests
+sha256,04d74c9565427074fef5f0eb687ceb7c4f5a2e822fe1e52923e2130fd6842333,OtterCookie loader (js),2026-11-01,C2 172.86.125[.]98
+sha256,0a9224c015b2b468dad36d14a71278c8341d6427d2df32697854030b22925c26,OtterCookie loader (js),2026-11-01,C2 45.61.145[.]161
+sha256,0e7eadd106528bee5be69e2441e0ff9e210364e5dc017f4a938569ba79e025da,OtterCookie loader (js),2026-11-01,C2 172.86.125[.]98
+sha256,12d766f521c5bfa24e804a0eb187f5d61d3a3c2090497924da9d14619217cdd0,OtterCookie loader (js),2026-11-01,C2 144.172.94[.]202
+sha256,13d2ad0418dcdee4d446e87acfa57cd40bb05d78dcb3a223467bcb251f5d1a32,OtterCookie loader (js),2026-11-01,C2 144.172.94[.]202
+sha256,24954d3ff6c5b4ad1c4f61ae486ae979f0d28516491ebbd316bb18f9dedeeee4,OtterCookie loader (js),2026-11-01,C2 45.61.145[.]161
+sha256,3d87724d30456f1229eeba84e0102cf831fff69cc61fcca8ace03fa717688ad9,OtterCookie loader (js),2026-11-01,C2 172.86.125[.]98
+sha256,41608549a5e0152ea8578955eba1775a0ae23e8a9d45796ff2f6ccf349a02f1e,OtterCookie loader (js),2026-11-01,C2 172.86.125[.]98
+sha256,44fa118e9b1d5be02eb0bcf1a27b84cc690a4578c7e1999e92514dd2c1ff4bc7,OtterCookie loader (js),2026-11-01,C2 172.86.125[.]98
+sha256,44fe754a01619e7a354028126a1e339c5995f7ca7a8c7b9fe4975cd966c785e0,OtterCookie loader (js),2026-11-01,C2 172.86.73[.]27
+sha256,4a868091a68c994f8a66ba7ca824dcab6cc19f12d17cf5a69def9c17ec67a965,OtterCookie loader (js),2026-11-01,C2 144.172.94[.]202
+sha256,5a02afd952537b3606ea61d72aba79142e54b50c4f5820fe999113735f1462c2,OtterCookie loader (js),2026-11-01,C2 45.61.145[.]161
+sha256,62c553d63c0052a61136abcfd4191c56bfb3d25b49dc5c60dc27f786ad59f3a0,OtterCookie loader (js),2026-11-01,C2 144.172.94[.]202
+sha256,6861cb75c996512c02b0161c2e533d533b30f95df33decfd47c3189bf3f2b0b7,OtterCookie loader (js),2026-11-01,C2 172.86.125[.]98
+sha256,8269e7186376b1e7d6b02355a38dafc7d364fc1d6188e25021db2ef31ec9477a,OtterCookie loader (js),2026-11-01,C2 144.172.94[.]202
+sha256,850414cc8fb032e7bfcccdaf760f709aef556e509cc7c72afef05776a4e6cdc8,OtterCookie loader (js),2026-11-01,C2 144.172.94[.]202
+sha256,8737d4f4f4d8cb346212088513abb32372a5bea3cf06e94761eeeb05382a8597,OtterCookie loader (js),2026-11-01,C2 172.86.125[.]98
+sha256,9656b2ad9e5cb0c79549364ee844cae8c8718a2d367230b626eac0739c8ac1a5,OtterCookie loader (js),2026-11-01,C2 144.172.118[.]166
+sha256,98cd340afc6c13ca4347724c6e2794546f818072ca6cdd6106cde93dc586d45c,OtterCookie loader (js),2026-11-01,C2 172.86.125[.]61
+sha256,9e8af6fcfa5108f45af58e4873836a979c43e3bd70ef8e1839e6177327d7d99e,OtterCookie loader (js),2026-11-01,C2 144.172.94[.]202
+sha256,9ecef510b69f643880e21a070e537d0af9c89db916cd46c13ce2ebb893667e74,OtterCookie loader (js),2026-11-01,C2 172.86.125[.]98
+sha256,aa20c251abb49af4eb8a30107d5c150f61f108a5f1ce5b68f426ae55e2b2c962,OtterCookie loader (js),2026-11-01,C2 144.172.94[.]202
+sha256,bb0fdb22f01cd63c415a3c75beae0881b7555961da85d150dcd56c7791754eff,OtterCookie loader (js),2026-11-01,C2 144.172.85[.]176
+sha256,d17ff05fbd218d542cae5013c479b1ccddae54c3fadda958d14bc566194379ee,OtterCookie loader (js),2026-11-01,C2 144.172.94[.]202
+sha256,d395f5cf1c1b049acaac87586787cdace39e8be51b9ffdedf90bad28088a43e5,OtterCookie loader (js),2026-11-01,C2 144.172.94[.]202
+sha256,da8d7a294c004ee2ac8ef63a2b561eb1dfdea4315fc0c7babc76562bd8eff28f,OtterCookie loader (js),2026-11-01,C2 172.86.126[.]76
+sha256,ed8b62831f8a9e20bb1d792e2eb3d7e5b4fc8daf96a4c972a11d548c15879d23,OtterCookie loader (js),2026-11-01,C2 144.172.94[.]202
+sha256,f7c282b1a5d61be5a58c7cd6810d75484fd10a9ab3a5b620cc6697546f1a4f30,OtterCookie loader (js),2026-11-01,C2 144.172.86[.]31
+sha256,ff896698878990afb2e9a4ba5d9dcd08c19b8857dd31e210f6c826d752706445,OtterCookie loader (js),2026-11-01,C2 172.86.125[.]98
+domain,parallelchain-labs[.]com,stage host,2026-11-01,fetched by the hook
+url,hxxps://parallelchain-labs[.]com/settings/mac?flag=2,stage,2026-11-01,piped into sh
+url,hxxps://parallelchain-labs[.]com/settings/linux?flag=2,stage,2026-11-01,piped into sh
+url,hxxps://parallelchain-labs[.]com/settings/windows?flag=2,stage,2026-11-01,piped into cmd
+ip:port,144.172.94[.]202:8085,upload (ldb),2026-11-01,11 loader build(s)
+ip:port,144.172.94[.]202:8086,upload (files),2026-11-01,11 loader build(s)
+ip:port,144.172.94[.]202:8087,socket.io control, /api/notify, /api/log,2026-11-01,11 loader build(s)
+ip:port,172.86.125[.]98:8085,upload (ldb),2026-11-01,9 loader build(s)
+ip:port,172.86.125[.]98:8086,upload (files),2026-11-01,9 loader build(s)
+ip:port,172.86.125[.]98:8087,socket.io control, /api/notify, /api/log,2026-11-01,9 loader build(s)
+ip:port,45.61.145[.]161:8085,upload (ldb),2026-11-01,3 loader build(s)
+ip:port,45.61.145[.]161:8086,upload (files),2026-11-01,3 loader build(s)
+ip:port,45.61.145[.]161:8087,socket.io control, /api/notify, /api/log,2026-11-01,3 loader build(s)
+ip:port,172.86.73[.]27:8085,upload (ldb),2026-11-01,1 loader build(s)
+ip:port,172.86.73[.]27:8086,upload (files),2026-11-01,1 loader build(s)
+ip:port,172.86.73[.]27:8087,socket.io control, /api/notify, /api/log,2026-11-01,1 loader build(s)
+ip:port,144.172.118[.]166:8085,upload (ldb),2026-11-01,1 loader build(s)
+ip:port,144.172.118[.]166:8086,upload (files),2026-11-01,1 loader build(s)
+ip:port,144.172.118[.]166:8087,socket.io control, /api/notify, /api/log,2026-11-01,1 loader build(s)
+ip:port,172.86.125[.]61:8085,upload (ldb),2026-11-01,1 loader build(s)
+ip:port,172.86.125[.]61:8086,upload (files),2026-11-01,1 loader build(s)
+ip:port,172.86.125[.]61:8087,socket.io control, /api/notify, /api/log,2026-11-01,1 loader build(s)
+ip:port,144.172.85[.]176:8085,upload (ldb),2026-11-01,1 loader build(s)
+ip:port,144.172.85[.]176:8086,upload (files),2026-11-01,1 loader build(s)
+ip:port,144.172.85[.]176:8087,socket.io control, /api/notify, /api/log,2026-11-01,1 loader build(s)
+ip:port,172.86.126[.]76:8085,upload (ldb),2026-11-01,1 loader build(s)
+ip:port,172.86.126[.]76:8086,upload (files),2026-11-01,1 loader build(s)
+ip:port,172.86.126[.]76:8087,socket.io control, /api/notify, /api/log,2026-11-01,1 loader build(s)
+ip:port,144.172.86[.]31:8085,upload (ldb),2026-11-01,1 loader build(s)
+ip:port,144.172.86[.]31:8086,upload (files),2026-11-01,1 loader build(s)
+ip:port,144.172.86[.]31:8087,socket.io control, /api/notify, /api/log,2026-11-01,1 loader build(s)
+email,elxwed23523[@]tem[.]me,git commit author,2026-10-10,author 'elxwed', +0530, all 13 tests
+file,%TEMP%\pid.<t>.1.lock / .2.lock / .3.lock,host artifact,,module locks: ldbScript, autoUploadScript, socketScript
