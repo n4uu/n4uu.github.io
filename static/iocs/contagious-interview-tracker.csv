@@ -1,0 +1,24 @@
+type,value,role,first_seen,wave,status
+sha256,1bcf17ce99fc748536317f9d28fd79f103f6166c1e548c0255ede0b434314352,raw TCP backdoor (early build),2026-04-20,raw TCP backdoor,analysed
+ip:port,144.172.105[.]138:15152,C2,2026-04-20,raw TCP backdoor,analysed
+sha256,049300aa5dd774d6c984779a0570f59610399c71864b5d5c2605906db46ddeb9,OtterCookie main script,2026-06,OtterCookie,analysed
+ip:port,216.126.225[.]243:8085,upload server,2026-06,OtterCookie,analysed
+ip:port,216.126.225[.]243:8086,upload server,2026-06,OtterCookie,analysed
+sha256,281d4d60fc99cf7f54819defb1c7c14b9202d46890936c4c6b9ebe3ddc75dd2f,backdoor,2026-07-10,cleverstack git hook lure,analysed
+sha256,6db4c3d2ab56227d36eff59d1dc9e13eadf9959996fab1e0b04591cc5e637d04,backdoor,2026-07-10,cleverstack git hook lure,analysed
+sha256,f101fda6093f12758efae630bc265d6bad71479249685b7503c05e707424a276,batch dropper,2026-07-10,cleverstack git hook lure,analysed
+ip:port,5.230.122[.]63:15152,C2,2026-07-10,cleverstack git hook lure,analysed
+url,hxxp://cleverstack-ext30341.vercel[.]app/api/handle,payload delivery,2026-07-10,cleverstack git hook lure,analysed
+url,hxxp://cleverstack-ext30341.vercel[.]app/api/g,payload delivery,2026-07-10,cleverstack git hook lure,analysed
+url,hxxp://cleverstack-ext30341.vercel[.]app/api/package,staging,2026-07-10,cleverstack git hook lure,analysed
+domain,parallelchain-labs[.]com,stage host,2026-11-01,Settle a payment,analysed
+sha256,0f08f08737dd5b6dfd76f396e361b7d795156888883fa89139a73b9934c64a24,post-checkout hook,2026-11-01,Settle a payment,analysed
+ip:port,144.172.94[.]202:8085-8087,OtterCookie C2,2026-11-01,Settle a payment,analysed
+ip:port,172.86.125[.]98:8085-8087,OtterCookie C2,2026-11-01,Settle a payment,analysed
+ip:port,45.61.145[.]161:8085-8087,OtterCookie C2,2026-11-01,Settle a payment,analysed
+ip:port,172.86.73[.]27:8085-8087,OtterCookie C2,2026-11-01,Settle a payment,analysed
+ip:port,144.172.118[.]166:8085-8087,OtterCookie C2,2026-11-01,Settle a payment,analysed
+ip:port,172.86.125[.]61:8085-8087,OtterCookie C2,2026-11-01,Settle a payment,analysed
+ip:port,144.172.85[.]176:8085-8087,OtterCookie C2,2026-11-01,Settle a payment,analysed
+ip:port,172.86.126[.]76:8085-8087,OtterCookie C2,2026-11-01,Settle a payment,analysed
+ip:port,144.172.86[.]31:8085-8087,OtterCookie C2,2026-11-01,Settle a payment,analysed
