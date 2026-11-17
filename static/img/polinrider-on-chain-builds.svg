@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" width="680" height="440" role="img" aria-labelledby="t d" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif">
+<title id="t">PolinRider payloads published on chain, June 2025 to October 2026</title>
+<desc id="d">One row per TRON index address, one mark per BSC payload it pointed to. Below, the number of DEV#POPPER RAT commands per build over the same period, rising from 7 to 15.</desc>
+<style>
+.bg{fill:#ffffff}.ink{fill:#16171a}.ink2{fill:#5f6368}.grid{stroke:#e3e3e3;stroke-width:1}
+.lane{stroke:#efefef;stroke-width:1}.ring{stroke:#ffffff}
+.rat{fill:#2a78d6}.newobf{fill:#eb6834}.py{fill:#1baf7a}.loader{fill:#9a9ca1}.step{stroke:#2a78d6;fill:none;stroke-width:2}
+.test{fill:none;stroke:#5f6368;stroke-width:1.5}.lead{stroke:#9a9ca1;stroke-width:1}
+@media (prefers-color-scheme: dark){
+.bg{fill:#101113}.ink{fill:#e4e4e2}.ink2{fill:#9a9ca1}.grid{stroke:#2a2b2f}.lane{stroke:#1d1e21}.ring{stroke:#101113}
+.rat{fill:#3987e5}.newobf{fill:#d95926}.py{fill:#199e70}.loader{fill:#6b6e74}.step{stroke:#3987e5}
+.test{stroke:#9a9ca1}.lead{stroke:#5f6368}}
+text{font-size:12px}.s{font-size:11px}.h{font-size:13px;font-weight:600}
+</style>
+<rect class="bg" width="680" height="440"/>
+<text class="ink h" x="128" y="18">Payloads published on chain, by TRON index address</text>
+<circle class="rat" cx="133" cy="32" r="4.5"/>
+<text class="ink2 s" x="142" y="36">RAT build (readable)</text>
+<rect class="newobf" x="281.0" y="28" width="8" height="8" transform="rotate(45 285.0 32)"/>
+<text class="ink2 s" x="294.0" y="36">RAT, new obfuscator</text>
+<rect class="py" x="427.0" y="28" width="8" height="8"/>
+<text class="ink2 s" x="440.0" y="36">Python RAT</text>
+<circle class="loader" cx="523.0" cy="32" r="4.5"/>
+<text class="ink2 s" x="532.0" y="36">loader</text>
+<line class="grid" x1="170.5" y1="44" x2="170.5" y2="400"/>
+<text class="ink2 s" x="170.5" y="416" text-anchor="middle">Jul 2025</text>
+<line class="grid" x1="263.5" y1="44" x2="263.5" y2="400"/>
+<text class="ink2 s" x="263.5" y="416" text-anchor="middle">Oct</text>
+<line class="grid" x1="356.6" y1="44" x2="356.6" y2="400"/>
+<text class="ink2 s" x="356.6" y="416" text-anchor="middle">Jan 2026</text>
+<line class="grid" x1="447.6" y1="44" x2="447.6" y2="400"/>
+<text class="ink2 s" x="447.6" y="416" text-anchor="middle">Apr</text>
+<line class="grid" x1="539.6" y1="44" x2="539.6" y2="400"/>
+<text class="ink2 s" x="539.6" y="416" text-anchor="middle">Jul</text>
+<line class="grid" x1="632.6" y1="44" x2="632.6" y2="400"/>
+<text class="ink2 s" x="632.6" y="416" text-anchor="middle">Oct</text>
+<line class="lane" x1="128" y1="60" x2="664" y2="60"/>
+<text class="ink s" x="120" y="59" text-anchor="end" font-family="ui-monospace,Menlo,Consolas,monospace">TMfKQ…</text>
+<text class="ink2 s" x="120" y="71" text-anchor="end">chain 1 loader</text>
+<line class="lane" x1="128" y1="90" x2="664" y2="90"/>
+<text class="ink s" x="120" y="89" text-anchor="end" font-family="ui-monospace,Menlo,Consolas,monospace">TXfxH…</text>
+<text class="ink2 s" x="120" y="101" text-anchor="end">chain 2 loader</text>
+<line class="lane" x1="128" y1="120" x2="664" y2="120"/>
+<text class="ink s" x="120" y="119" text-anchor="end" font-family="ui-monospace,Menlo,Consolas,monospace">TLmj13…</text>
+<text class="ink2 s" x="120" y="131" text-anchor="end">RAT, stream 1</text>
+<line class="lane" x1="128" y1="150" x2="664" y2="150"/>
+<text class="ink s" x="120" y="149" text-anchor="end" font-family="ui-monospace,Menlo,Consolas,monospace">TA48d…</text>
+<text class="ink2 s" x="120" y="161" text-anchor="end">RAT, stream 2</text>
+<line class="lane" x1="128" y1="180" x2="664" y2="180"/>
+<text class="ink s" x="120" y="179" text-anchor="end" font-family="ui-monospace,Menlo,Consolas,monospace">TCqf6…</text>
+<text class="ink2 s" x="120" y="191" text-anchor="end">2026 chain 1</text>
+<line class="lane" x1="128" y1="210" x2="664" y2="210"/>
+<text class="ink s" x="120" y="209" text-anchor="end" font-family="ui-monospace,Menlo,Consolas,monospace">TFMry…</text>
+<text class="ink2 s" x="120" y="221" text-anchor="end">2026 chain 2</text>
+<line class="lane" x1="128" y1="240" x2="664" y2="240"/>
+<text class="ink s" x="120" y="239" text-anchor="end" font-family="ui-monospace,Menlo,Consolas,monospace">TPDBq…</text>
+<text class="ink2 s" x="120" y="251" text-anchor="end">one-shot</text>
+<circle class="test" cx="151.0" cy="60" r="4"/>
+<circle class="test" cx="151.0" cy="60" r="4"/>
+<circle class="test" cx="149.5" cy="60" r="4"/>
+<circle class="test" cx="145.8" cy="60" r="4"/>
+<circle class="test" cx="145.8" cy="60" r="4"/>
+<circle class="test" cx="145.8" cy="60" r="4"/>
+<circle class="test" cx="145.8" cy="60" r="4"/>
+<circle class="test" cx="145.8" cy="60" r="4"/>
+<circle class="loader ring" stroke-width="1.5" cx="152.5" cy="60" r="3.5"><title>2025-06-13 05:06 UTC · loader · 3637 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="152.5" cy="60" r="3.5"><title>2025-06-13 05:19 UTC · loader · 3637 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="152.5" cy="90" r="3.5"><title>2025-06-13 05:50 UTC · loader · 3871 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="152.5" cy="90" r="3.5"><title>2025-06-13 05:54 UTC · loader · 3871 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="152.5" cy="90" r="3.5"><title>2025-06-13 05:55 UTC · loader · 3871 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="152.5" cy="60" r="3.5"><title>2025-06-13 06:25 UTC · loader · 3655 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="157.7" cy="90" r="3.5"><title>2025-06-18 08:28 UTC · loader · 3935 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="163.6" cy="60" r="3.5"><title>2025-06-24 05:14 UTC · loader · 3588 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="163.6" cy="60" r="3.5"><title>2025-06-24 05:23 UTC · loader · 3735 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="163.6" cy="120" r="3.5"><title>2025-06-24 05:39 UTC · loader · 66347 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="193.4" cy="60" r="3.5"><title>2025-07-23 16:28 UTC · loader · 3788 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="214.6" cy="90" r="3.5"><title>2025-08-13 14:06 UTC · loader · 3959 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="220.7" cy="60" r="3.5"><title>2025-08-19 16:46 UTC · loader · 3688 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="264.2" cy="60" r="3.5"><title>2025-10-01 16:56 UTC · loader · 3782 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="264.2" cy="60" r="3.5"><title>2025-10-01 17:01 UTC · loader · 3709 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="264.3" cy="60" r="3.5"><title>2025-10-01 17:26 UTC · loader · 3756 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="308.6" cy="180" r="3.5"><title>2025-11-14 13:50 UTC · loader · 3765 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="308.6" cy="180" r="3.5"><title>2025-11-14 14:01 UTC · loader · 3699 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="313.7" cy="210" r="3.5"><title>2025-11-19 14:03 UTC · loader · 4502 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="325.8" cy="60" r="3.5"><title>2025-12-01 14:09 UTC · loader · 3698 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="341.9" cy="180" r="3.5"><title>2025-12-17 11:47 UTC · loader · 3689 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="397.6" cy="180" r="3.5"><title>2026-02-10 14:32 UTC · loader · 3793 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="397.6" cy="180" r="3.5"><title>2026-02-10 14:41 UTC · loader · 3850 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="397.9" cy="180" r="3.5"><title>2026-02-10 20:47 UTC · loader · 3744 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="399.6" cy="180" r="3.5"><title>2026-02-12 13:05 UTC · loader · 3710 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="399.6" cy="210" r="3.5"><title>2026-02-12 13:29 UTC · loader · 4511 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="412.9" cy="180" r="3.5"><title>2026-02-25 18:06 UTC · loader · 3975 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="412.9" cy="180" r="3.5"><title>2026-02-25 18:08 UTC · loader · 4050 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="412.9" cy="180" r="3.5"><title>2026-02-25 18:10 UTC · loader · 3999 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="412.9" cy="180" r="3.5"><title>2026-02-25 18:12 UTC · loader · 3997 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="413.0" cy="180" r="3.5"><title>2026-02-25 18:27 UTC · loader · 18782 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="413.0" cy="180" r="3.5"><title>2026-02-25 18:42 UTC · loader · 5977 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="413.0" cy="180" r="3.5"><title>2026-02-25 18:55 UTC · loader · 5239 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="413.0" cy="180" r="3.5"><title>2026-02-25 19:09 UTC · loader · 5452 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="413.0" cy="180" r="3.5"><title>2026-02-25 19:16 UTC · loader · 5395 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="413.0" cy="180" r="3.5"><title>2026-02-25 19:46 UTC · loader · 5452 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="413.1" cy="180" r="3.5"><title>2026-02-25 20:57 UTC · loader · 5485 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="413.1" cy="180" r="3.5"><title>2026-02-25 20:59 UTC · loader · 5520 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="413.1" cy="180" r="3.5"><title>2026-02-25 21:00 UTC · loader · 5585 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="414.3" cy="210" r="3.5"><title>2026-02-27 02:27 UTC · loader · 4467 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="420.0" cy="90" r="3.5"><title>2026-03-04 16:27 UTC · loader · 3641 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="420.0" cy="60" r="3.5"><title>2026-03-04 17:03 UTC · loader · 5895 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="426.0" cy="180" r="3.5"><title>2026-03-10 14:57 UTC · loader · 6189 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="442.1" cy="90" r="3.5"><title>2026-03-26 14:53 UTC · loader · 3568 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="442.2" cy="180" r="3.5"><title>2026-03-26 15:13 UTC · loader · 6189 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="442.2" cy="90" r="3.5"><title>2026-03-26 15:13 UTC · loader · 3568 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="442.2" cy="60" r="3.5"><title>2026-03-26 15:59 UTC · loader · 7131 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="447.2" cy="60" r="3.5"><title>2026-03-31 14:20 UTC · loader · 7147 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="496.8" cy="180" r="3.5"><title>2026-05-19 15:04 UTC · loader · 5369 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="497.8" cy="60" r="3.5"><title>2026-05-20 15:16 UTC · loader · 5791 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="500.8" cy="60" r="3.5"><title>2026-05-23 15:01 UTC · loader · 5877 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="500.9" cy="60" r="3.5"><title>2026-05-23 16:16 UTC · loader · 5800 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="527.0" cy="60" r="3.5"><title>2026-06-18 13:09 UTC · loader · 5762 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="529.1" cy="90" r="3.5"><title>2026-06-20 13:37 UTC · loader · 3525 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="531.6" cy="60" r="3.5"><title>2026-06-23 02:35 UTC · loader · 5849 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="609.9" cy="210" r="3.5"><title>2026-09-08 12:34 UTC · loader · 3521 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="609.9" cy="180" r="3.5"><title>2026-09-08 12:41 UTC · loader · 2171 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="609.9" cy="210" r="3.5"><title>2026-09-08 13:02 UTC · loader · 3202 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="609.9" cy="210" r="3.5"><title>2026-09-08 13:09 UTC · loader · 3216 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="610.0" cy="210" r="3.5"><title>2026-09-08 13:22 UTC · loader · 3217 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="610.0" cy="210" r="3.5"><title>2026-09-08 13:23 UTC · loader · 3217 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="628.2" cy="180" r="3.5"><title>2026-09-26 15:30 UTC · loader · 3161 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="628.2" cy="210" r="3.5"><title>2026-09-26 15:31 UTC · loader · 3244 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="637.4" cy="180" r="3.5"><title>2026-10-05 17:32 UTC · loader · 3182 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="637.4" cy="210" r="3.5"><title>2026-10-05 17:32 UTC · loader · 3197 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="639.4" cy="180" r="3.5"><title>2026-10-07 15:37 UTC · loader · 5097 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="639.4" cy="180" r="3.5"><title>2026-10-07 16:09 UTC · loader · 5698 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="639.4" cy="210" r="3.5"><title>2026-10-07 16:10 UTC · loader · 8 bytes</title></circle>
+<circle class="loader ring" stroke-width="1.5" cx="639.4" cy="210" r="3.5"><title>2026-10-07 16:23 UTC · loader · 7 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="152.0" cy="120" r="4.5"><title>2025-06-12 17:19 UTC · rat · 31196 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="152.5" cy="120" r="4.5"><title>2025-06-13 06:26 UTC · rat · 31836 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="152.6" cy="120" r="4.5"><title>2025-06-13 07:35 UTC · rat · 31930 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="152.6" cy="120" r="4.5"><title>2025-06-13 07:42 UTC · rat · 31406 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="152.6" cy="120" r="4.5"><title>2025-06-13 07:45 UTC · rat · 32159 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="152.6" cy="120" r="4.5"><title>2025-06-13 07:59 UTC · rat · 31001 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="157.0" cy="120" r="4.5"><title>2025-06-17 16:47 UTC · rat · 62111 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="157.0" cy="120" r="4.5"><title>2025-06-17 16:59 UTC · rat · 61441 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="157.0" cy="120" r="4.5"><title>2025-06-17 17:09 UTC · rat · 61028 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="157.0" cy="120" r="4.5"><title>2025-06-17 17:18 UTC · rat · 61294 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="157.6" cy="120" r="4.5"><title>2025-06-18 07:14 UTC · rat · 61969 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="157.6" cy="120" r="4.5"><title>2025-06-18 07:25 UTC · rat · 62400 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="157.7" cy="120" r="4.5"><title>2025-06-18 08:39 UTC · rat · 62632 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="157.7" cy="120" r="4.5"><title>2025-06-18 08:45 UTC · rat · 63054 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="157.9" cy="120" r="4.5"><title>2025-06-18 12:36 UTC · rat · 63115 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="157.9" cy="120" r="4.5"><title>2025-06-18 13:13 UTC · rat · 62604 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="158.9" cy="120" r="4.5"><title>2025-06-19 14:14 UTC · rat · 65496 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="158.9" cy="120" r="4.5"><title>2025-06-19 14:17 UTC · rat · 64087 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="159.0" cy="120" r="4.5"><title>2025-06-19 15:51 UTC · rat · 64768 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="159.0" cy="120" r="4.5"><title>2025-06-19 16:07 UTC · rat · 65460 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="159.0" cy="120" r="4.5"><title>2025-06-19 16:26 UTC · rat · 64850 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="159.7" cy="120" r="4.5"><title>2025-06-20 08:59 UTC · rat · 65395 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="159.8" cy="120" r="4.5"><title>2025-06-20 09:48 UTC · rat · 65350 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="159.8" cy="120" r="4.5"><title>2025-06-20 09:50 UTC · rat · 65350 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="159.9" cy="120" r="4.5"><title>2025-06-20 12:46 UTC · rat · 64883 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="159.9" cy="120" r="4.5"><title>2025-06-20 12:48 UTC · rat · 65366 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="163.6" cy="120" r="4.5"><title>2025-06-24 05:28 UTC · rat · 66402 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="163.6" cy="120" r="4.5"><title>2025-06-24 05:46 UTC · rat · 66074 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="163.6" cy="120" r="4.5"><title>2025-06-24 05:53 UTC · rat · 65603 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="164.0" cy="120" r="4.5"><title>2025-06-24 14:48 UTC · rat · 67667 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="172.1" cy="120" r="4.5"><title>2025-07-02 13:53 UTC · rat · 67405 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="193.4" cy="120" r="4.5"><title>2025-07-23 16:29 UTC · rat · 67397 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="194.3" cy="120" r="4.5"><title>2025-07-24 12:13 UTC · rat · 69008 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="220.7" cy="120" r="4.5"><title>2025-08-19 16:43 UTC · rat · 67699 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="220.7" cy="120" r="4.5"><title>2025-08-19 16:49 UTC · rat · 67699 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="220.7" cy="120" r="4.5"><title>2025-08-19 16:59 UTC · rat · 68570 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="220.8" cy="120" r="4.5"><title>2025-08-19 17:32 UTC · rat · 69961 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="220.8" cy="120" r="4.5"><title>2025-08-19 17:33 UTC · rat · 70060 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="264.2" cy="120" r="4.5"><title>2025-10-01 16:56 UTC · rat · 70697 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="264.2" cy="120" r="4.5"><title>2025-10-01 17:03 UTC · rat · 71486 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="264.3" cy="120" r="4.5"><title>2025-10-01 17:24 UTC · rat · 71974 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="264.3" cy="120" r="4.5"><title>2025-10-01 17:26 UTC · rat · 71974 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="264.3" cy="120" r="4.5"><title>2025-10-01 17:36 UTC · rat · 71136 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="270.1" cy="120" r="4.5"><title>2025-10-07 13:03 UTC · rat · 71302 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="270.1" cy="120" r="4.5"><title>2025-10-07 13:08 UTC · rat · 71331 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="293.5" cy="120" r="4.5"><title>2025-10-30 15:41 UTC · rat · 72418 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="293.5" cy="120" r="4.5"><title>2025-10-30 15:43 UTC · rat · 72418 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="308.6" cy="150" r="4.5"><title>2025-11-14 14:03 UTC · rat · 71876 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="312.7" cy="150" r="4.5"><title>2025-11-18 14:02 UTC · rat · 71876 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="313.7" cy="150" r="4.5"><title>2025-11-19 14:29 UTC · rat · 72605 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="325.8" cy="120" r="4.5"><title>2025-12-01 14:15 UTC · rat · 72915 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="341.0" cy="150" r="4.5"><title>2025-12-16 14:48 UTC · rat · 73201 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="341.0" cy="150" r="4.5"><title>2025-12-16 15:53 UTC · rat · 72495 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="341.1" cy="150" r="4.5"><title>2025-12-16 16:32 UTC · rat · 72787 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="341.1" cy="150" r="4.5"><title>2025-12-16 16:53 UTC · rat · 75216 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="341.9" cy="150" r="4.5"><title>2025-12-17 11:33 UTC · rat · 76624 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="341.9" cy="150" r="4.5"><title>2025-12-17 11:56 UTC · rat · 75726 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="341.9" cy="120" r="4.5"><title>2025-12-17 11:59 UTC · rat · 75395 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="344.0" cy="150" r="4.5"><title>2025-12-19 15:06 UTC · rat · 75715 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="344.0" cy="120" r="4.5"><title>2025-12-19 15:08 UTC · rat · 76571 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="347.1" cy="150" r="4.5"><title>2025-12-22 14:42 UTC · rat · 76755 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="347.1" cy="120" r="4.5"><title>2025-12-22 14:46 UTC · rat · 77540 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="349.1" cy="120" r="4.5"><title>2025-12-24 14:55 UTC · rat · 77904 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="362.2" cy="150" r="4.5"><title>2026-01-06 14:08 UTC · rat · 80597 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="362.2" cy="120" r="4.5"><title>2026-01-06 14:11 UTC · rat · 80129 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="379.5" cy="150" r="4.5"><title>2026-01-23 15:35 UTC · rat · 86422 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="379.5" cy="150" r="4.5"><title>2026-01-23 15:40 UTC · rat · 86270 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="379.5" cy="150" r="4.5"><title>2026-01-23 15:49 UTC · rat · 89404 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="380.5" cy="150" r="4.5"><title>2026-01-24 15:33 UTC · rat · 90954 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="382.4" cy="120" r="4.5"><title>2026-01-26 14:24 UTC · rat · 91179 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="383.5" cy="120" r="4.5"><title>2026-01-27 15:13 UTC · rat · 91075 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="386.6" cy="150" r="4.5"><title>2026-01-30 17:18 UTC · rat · 93702 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="386.6" cy="150" r="4.5"><title>2026-01-30 17:20 UTC · rat · 95235 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="386.6" cy="150" r="4.5"><title>2026-01-30 17:49 UTC · rat · 91210 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="397.9" cy="150" r="4.5"><title>2026-02-10 21:09 UTC · rat · 93066 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="397.9" cy="150" r="4.5"><title>2026-02-10 21:14 UTC · rat · 91976 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="398.6" cy="150" r="4.5"><title>2026-02-11 14:14 UTC · rat · 92443 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="398.6" cy="150" r="4.5"><title>2026-02-11 14:22 UTC · rat · 92114 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="398.6" cy="150" r="4.5"><title>2026-02-11 14:46 UTC · rat · 70647 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="398.7" cy="150" r="4.5"><title>2026-02-11 15:05 UTC · rat · 69874 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="399.6" cy="150" r="4.5"><title>2026-02-12 13:07 UTC · rat · 69454 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="412.9" cy="150" r="4.5"><title>2026-02-25 18:01 UTC · rat · 70240 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="412.9" cy="150" r="4.5"><title>2026-02-25 18:05 UTC · rat · 70406 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="412.9" cy="150" r="4.5"><title>2026-02-25 18:07 UTC · rat · 70406 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="413.0" cy="150" r="4.5"><title>2026-02-25 18:38 UTC · rat · 70332 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="413.0" cy="150" r="4.5"><title>2026-02-25 18:54 UTC · rat · 70173 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="413.0" cy="150" r="4.5"><title>2026-02-25 18:59 UTC · rat · 70249 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="413.0" cy="150" r="4.5"><title>2026-02-25 20:00 UTC · rat · 69909 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="413.1" cy="150" r="4.5"><title>2026-02-25 20:39 UTC · rat · 70445 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="413.1" cy="150" r="4.5"><title>2026-02-25 20:41 UTC · rat · 69981 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="413.1" cy="150" r="4.5"><title>2026-02-25 20:45 UTC · rat · 70359 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="413.1" cy="150" r="4.5"><title>2026-02-25 21:07 UTC · rat · 70276 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="413.1" cy="150" r="4.5"><title>2026-02-25 21:44 UTC · rat · 70300 bytes</title></circle>
+<circle class="rat ring" stroke-width="1.5" cx="418.8" cy="150" r="4.5"><title>2026-03-03 13:41 UTC · rat · 70818 bytes</title></circle>
+<rect class="py ring" stroke-width="1.5" x="421.5" y="235.5" width="9" height="9"><title>2026-03-10 15:45 UTC · py · 10520 bytes</title></rect>
+<circle class="rat ring" stroke-width="1.5" cx="434.0" cy="150" r="4.5"><title>2026-03-18 14:01 UTC · rat · 75113 bytes</title></circle>
+<rect class="newobf ring" stroke-width="1.5" x="493.2" y="146.4" width="7.2" height="7.2" transform="rotate(45 496.8 150)"><title>2026-05-19 16:13 UTC · newobf · 81111 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="493.3" y="146.4" width="7.2" height="7.2" transform="rotate(45 496.9 150)"><title>2026-05-19 17:25 UTC · newobf · 76204 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="493.3" y="146.4" width="7.2" height="7.2" transform="rotate(45 496.9 150)"><title>2026-05-19 17:32 UTC · newobf · 64958 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="494.2" y="146.4" width="7.2" height="7.2" transform="rotate(45 497.8 150)"><title>2026-05-20 15:05 UTC · newobf · 67778 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="494.2" y="146.4" width="7.2" height="7.2" transform="rotate(45 497.8 150)"><title>2026-05-20 15:07 UTC · newobf · 65657 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="494.2" y="146.4" width="7.2" height="7.2" transform="rotate(45 497.8 150)"><title>2026-05-20 15:59 UTC · newobf · 71065 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="495.1" y="146.4" width="7.2" height="7.2" transform="rotate(45 498.7 150)"><title>2026-05-21 12:38 UTC · newobf · 66820 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="495.1" y="146.4" width="7.2" height="7.2" transform="rotate(45 498.7 150)"><title>2026-05-21 12:54 UTC · newobf · 71376 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="495.1" y="146.4" width="7.2" height="7.2" transform="rotate(45 498.7 150)"><title>2026-05-21 13:02 UTC · newobf · 68201 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="495.1" y="146.4" width="7.2" height="7.2" transform="rotate(45 498.7 150)"><title>2026-05-21 13:09 UTC · newobf · 70665 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="495.1" y="146.4" width="7.2" height="7.2" transform="rotate(45 498.7 150)"><title>2026-05-21 13:14 UTC · newobf · 66773 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="495.1" y="146.4" width="7.2" height="7.2" transform="rotate(45 498.7 150)"><title>2026-05-21 13:20 UTC · newobf · 70251 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="496.1" y="146.4" width="7.2" height="7.2" transform="rotate(45 499.7 150)"><title>2026-05-22 13:17 UTC · newobf · 71848 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="497.3" y="146.4" width="7.2" height="7.2" transform="rotate(45 500.9 150)"><title>2026-05-23 16:28 UTC · newobf · 70120 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="507.4" y="146.4" width="7.2" height="7.2" transform="rotate(45 511.0 150)"><title>2026-06-02 16:01 UTC · newobf · 71095 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="507.4" y="146.4" width="7.2" height="7.2" transform="rotate(45 511.0 150)"><title>2026-06-02 16:05 UTC · newobf · 72071 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="507.4" y="146.4" width="7.2" height="7.2" transform="rotate(45 511.0 150)"><title>2026-06-02 16:09 UTC · newobf · 76044 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="507.4" y="146.4" width="7.2" height="7.2" transform="rotate(45 511.0 150)"><title>2026-06-02 16:51 UTC · newobf · 71343 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="507.4" y="146.4" width="7.2" height="7.2" transform="rotate(45 511.0 150)"><title>2026-06-02 16:54 UTC · newobf · 72569 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="508.2" y="146.4" width="7.2" height="7.2" transform="rotate(45 511.8 150)"><title>2026-06-03 12:41 UTC · newobf · 72897 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="510.3" y="146.4" width="7.2" height="7.2" transform="rotate(45 513.9 150)"><title>2026-06-05 14:31 UTC · newobf · 77365 bytes</title></rect>
+<rect class="newobf ring" stroke-width="1.5" x="513.7" y="146.4" width="7.2" height="7.2" transform="rotate(45 517.3 150)"><title>2026-06-08 21:29 UTC · newobf · 77276 bytes</title></rect>
+<text class="ink2 s" x="412.7" y="165" text-anchor="middle">×12</text>
+<text class="ink2 s" x="412.7" y="195" text-anchor="middle">×13</text>
+<line class="lead" x1="145.8" y1="54" x2="145.8" y2="54"/>
+<text class="ink s" x="148.8" y="50" text-anchor="start">memo tests</text>
+<line class="lead" x1="412.9" y1="144" x2="412.9" y2="144"/>
+<text class="ink s" x="415.9" y="140" text-anchor="start">key switch</text>
+<line class="lead" x1="496.8" y1="144" x2="496.8" y2="144"/>
+<text class="ink s" x="499.8" y="140" text-anchor="start">obfuscator switch</text>
+<line class="lead" x1="426.0" y1="234" x2="426.0" y2="234"/>
+<text class="ink s" x="429.0" y="230" text-anchor="start">Python port</text>
+<line class="lead" x1="639.4" y1="204" x2="639.4" y2="204"/>
+<text class="ink s" x="636.4" y="200" text-anchor="end">'error'</text>
+<text class="ink h" x="128" y="270">RAT commands per build</text>
+<line class="grid" x1="128" y1="396.0" x2="664" y2="396.0"/>
+<text class="ink2 s" x="120" y="400.0" text-anchor="end">0</text>
+<line class="grid" x1="128" y1="341.0" x2="664" y2="341.0"/>
+<text class="ink2 s" x="120" y="345.0" text-anchor="end">8</text>
+<line class="grid" x1="128" y1="286.0" x2="664" y2="286.0"/>
+<text class="ink2 s" x="120" y="290.0" text-anchor="end">16</text>
+<path class="step" d="M152.0,347.9 H157.0 V341.0 H158.9 V334.1 H220.8 V327.2 H313.7 V320.4 H341.0 V313.5 H341.1 V306.6 H398.6 V299.8 H399.6 V292.9 H434.0 V292.9"/>
+<circle class="rat ring" stroke-width="1.5" cx="152.0" cy="347.9" r="4"/>
+<text class="ink s" x="158.0" y="362.9" text-anchor="start">7 at the first build</text>
+<circle class="rat ring" stroke-width="1.5" cx="158.9" cy="334.1" r="4"/>
+<text class="ink s" x="154.9" y="325.1" text-anchor="start">+ss_eval, +ss_inz (June)</text>
+<circle class="rat ring" stroke-width="1.5" cx="220.8" cy="327.2" r="4"/>
+<text class="ink s" x="224.8" y="343.2" text-anchor="start">+ss_inzx</text>
+<circle class="rat ring" stroke-width="1.5" cx="313.7" cy="320.4" r="4"/>
+<text class="ink s" x="317.7" y="336.4" text-anchor="start">+ss_connect</text>
+<circle class="rat ring" stroke-width="1.5" cx="341.1" cy="306.6" r="4"/>
+<text class="ink s" x="334.1" y="302.6" text-anchor="end">+ss_eval64, +ss_cb</text>
+<circle class="rat ring" stroke-width="1.5" cx="399.6" cy="292.9" r="4"/>
+<text class="ink s" x="405.6" y="284.9" text-anchor="start">+ss_exit, +ss_exit_f</text>
+<text class="ink2 s" x="496.8" y="296.9">not readable after the</text>
+<text class="ink2 s" x="496.8" y="310.9">May 2026 obfuscator switch</text>
+<text class="ink2 s" x="664" y="432" text-anchor="end">Source: TRON and BSC public ledgers, read 17 Nov 2026. n4uu</text>
+</svg>
