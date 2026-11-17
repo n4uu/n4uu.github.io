@@ -1,10 +1,10 @@
 ---
 title: "A DPRK RAT's changelog, read off the blockchain"
 date: 2026-11-17
-draft: true
+draft: false
 slug: "polinrider-rat-changelog-on-chain"
 description: "PolinRider's loaders fetch their payloads from TRON and BNB Smart Chain, so every build the operator shipped is still on chain. Reading all 190 of them gives the DEV#POPPER RAT a dated changelog, a Python port nobody mentioned and the operator's own test runs."
-tldr: "Seven TRON addresses pointed PolinRider loaders to 190 BSC transactions between June 2025 and October 2026, all sent by one wallet. 187 decrypt with the published keys. 95 are readable builds of the DEV#POPPER RAT, which grows from 7 commands to 15 over eight months before switching obfuscator. The archive also holds a Python port of the RAT published once in March 2026, three C2 addresses I could not find in public reporting, and the operator's tests, ending with a payload that is just the string `'error'`."
+tldr: "Seven TRON addresses pointed PolinRider loaders to 190 BSC transactions between June 2025 and October 2026, all sent by one wallet. 187 decrypt with the published keys. 95 are readable builds of the DEV#POPPER RAT, which grows from 7 commands to 15 over eight months before switching obfuscator. The archive also holds a Python port of the RAT published once in March 2026, three server addresses I could not find in public reporting, and the operator's tests, ending with a payload that is just the string `'error'`."
 iocs: "/iocs/polinrider-rat-changelog-on-chain.csv"
 ---
 
