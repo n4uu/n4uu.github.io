@@ -3,6 +3,10 @@ name: pages
 on:
   push:
     branches: [main]
+  # The dead-drop page is read from the chains at build time; rebuild it
+  # every six hours so it follows the operator's C2 changes.
+  schedule:
+    - cron: "41 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -33,6 +37,27 @@ jobs:
           tar -xzf "$f" hugo
           sudo mv hugo /usr/local/bin/hugo
           hugo version
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.24"
+          cache: false
+
+      - name: read the dead drops (public chain APIs only)
+        env:
+          PROWL_VERSION: v0.2.1
+        run: |
+          set -u
+          go install "github.com/n4uu/prowl/cmd/prowl@${PROWL_VERSION}"
+          # Publish fresh data only when every dead drop was read; otherwise
+          # keep the committed snapshot rather than failing the build.
+          if "$(go env GOPATH)/bin/prowl" deaddrop -q -json data/deaddrops.json.new -csv static/iocs/polinrider-c2-live.csv.new; then
+            mv data/deaddrops.json.new data/deaddrops.json
+            mv static/iocs/polinrider-c2-live.csv.new static/iocs/polinrider-c2-live.csv
+          else
+            echo "::warning::prowl deaddrop failed; publishing the committed snapshot"
+            rm -f data/deaddrops.json.new static/iocs/polinrider-c2-live.csv.new
+          fi
 
       - uses: actions/configure-pages@v5
 

@@ -1,0 +1,66 @@
+{{- /* Renders data/deaddrops.json, written by `prowl deaddrop` at build time. */ -}}
+{{- $defang := `\.(\d+)$` -}}
+{{- with site.Data.deaddrops -}}
+<p class="meta">Read from the chains on {{ (time .generated).Format "2 January 2006 at 15:04 UTC" }}. The page is rebuilt every six hours.</p>
+<h2 id="nullreceiver">NullReceiver wallets (Ethereum)</h2>
+{{- range .nullreceiver }}
+{{- $w := . }}
+<h3><code>{{ .address }}</code></h3>
+<p>{{ .label }}. {{ .pointers }} pointer transactions, {{ .on_schedule }} of them on the 1000-block schedule{{ with .marker }}, padding <code>{{ . }}</code>{{ end }}.
+{{- if .active }} <strong>Active</strong>: last pointer {{ (time .current.last).Format "2 January 15:04 UTC" }}.
+{{- else }}{{ with .current }} Quiet since {{ (time .last).Format "2 January 2006" }}.{{ end }}{{ end }}
+{{- with .error }} Could not be read on this build: {{ . }}.{{ end }}</p>
+{{- if .periods }}
+<table>
+<thead><tr><th>From (UTC)</th><th>To</th><th>Txs</th><th>C2</th></tr></thead>
+<tbody>
+{{- range .periods }}
+<tr><td>{{ (time .first).Format "2006-01-02 15:04" }}</td><td>{{ (time .last).Format "2006-01-02 15:04" }}</td><td>{{ .txs }}</td><td><code>{{ replaceRE $defang "[.]$1" .ip1 }}{{ if ne .ip1 .ip2 }} {{ replaceRE $defang "[.]$1" .ip2 }}{{ end }}</code>{{ if and $w.active (eq .first_block $w.current.first_block) }} current{{ end }}</td></tr>
+{{- end }}
+</tbody>
+</table>
+{{- end }}
+{{- if .transfers }}
+<p>ETH in and out, which is how the gas is paid:</p>
+<table>
+<thead><tr><th>When (UTC)</th><th></th><th>ETH</th><th>Counterparty</th></tr></thead>
+<tbody>
+{{- range .transfers }}
+<tr><td>{{ (time .time).Format "2006-01-02 15:04" }}</td><td>{{ .direction }}</td><td>{{ .value_eth }}</td><td><code>{{ .peer }}</code></td></tr>
+{{- end }}
+</tbody>
+</table>
+{{- end }}
+{{- end }}
+<h2 id="bsc-index">Ethereum index for BSC stages</h2>
+<p>Since 7 October the loaders find their next stage through an Ethereum wallet instead of TRON. Each pointer is a small transaction (500 wei) to an address whose bytes 0-3 are a BSC block number and byte 4 the position of the stage transaction in that block.</p>
+{{- range .bsc_indexes }}
+<h3><code>{{ .address }}</code></h3>
+<p>{{ .pointers }} pointer transactions, {{ .on_schedule }} of them on the 256-block schedule.{{ if .active }} <strong>Active.</strong>{{ end }}{{ with .error }} Could not be fully read on this build: {{ . }}.{{ end }}</p>
+{{- if .stages }}
+<table>
+<thead><tr><th>Pointed to (UTC)</th><th>Pointers</th><th>BSC stage</th><th>Writer nonce</th></tr></thead>
+<tbody>
+{{- range .stages }}
+<tr><td>{{ (time .first).Format "2006-01-02 15:04" }} to {{ (time .last).Format "2006-01-02 15:04" }}</td><td>{{ .pointers }}</td><td><code>{{ int .bsc_block }}</code> #{{ int .tx_index }}{{ with .bsc_tx }}<br><code>{{ . }}</code>{{ end }}</td><td>{{ int .nonce }}</td></tr>
+{{- end }}
+</tbody>
+</table>
+{{- end }}
+{{- end }}
+<h2 id="tron">TRON memo indexes</h2>
+<table>
+<thead><tr><th>Index</th><th>Role</th><th>Pointers</th><th>Last</th></tr></thead>
+<tbody>
+{{- range .tron_indexes }}
+<tr><td><code>{{ .address }}</code></td><td>{{ .label }}</td><td>{{ .pointers }} of {{ .outgoing }}</td><td>{{ with .error }}error{{ else }}{{ if .last }}{{ (time .last).Format "2006-01-02" }}{{ end }}{{ end }}</td></tr>
+{{- end }}
+</tbody>
+</table>
+<h2 id="bsc">BSC stage writer</h2>
+{{- range .bsc_writers }}
+<p><code>{{ .address }}</code>: {{ with .error }}could not be read on this build ({{ . }}).{{ else }}next nonce {{ .nonce }}. After nonce {{ .known_nonce }}, the last stage a TRON index points to, <strong>{{ .unaccounted }}</strong> transactions are not pointed to by any index watched here{{ with .indexed }} (the Ethereum index accounts for nonces {{ delimit . ", " }}){{ end }}.{{ end }}</p>
+{{- end }}
+{{- else -}}
+<p>No dead-drop data in this build.</p>
+{{- end -}}

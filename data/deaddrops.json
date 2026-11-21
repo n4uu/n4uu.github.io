@@ -1,0 +1,409 @@
+{
+  "name": "polinrider",
+  "generated": "2026-11-21T17:28:08.693330236Z",
+  "nullreceiver": [
+    {
+      "address": "0xa322e5f3d311d3080e6f0121063e9adc2490ef1a",
+      "label": "first NullReceiver wallet (public since August 2026)",
+      "pointers": 607,
+      "on_schedule": 515,
+      "marker": "helloipbot!!",
+      "periods": [
+        {
+          "c2": "166.88.134.62",
+          "ip1": "166.88.134.62",
+          "ip2": "166.88.134.62",
+          "first": "2026-07-25T06:48:35Z",
+          "last": "2026-08-22T00:08:11Z",
+          "txs": 178,
+          "first_block": 25608089,
+          "last_block": 25806999
+        },
+        {
+          "c2": "23.27.13.135",
+          "ip1": "23.27.13.135",
+          "ip2": "23.27.13.135",
+          "first": "2026-08-22T01:28:47Z",
+          "last": "2026-08-27T23:57:59Z",
+          "txs": 48,
+          "first_block": 25807399,
+          "last_block": 25849999
+        },
+        {
+          "c2": "166.88.73.46",
+          "ip1": "166.88.73.46",
+          "ip2": "166.88.73.46",
+          "first": "2026-08-28T01:46:11Z",
+          "last": "2026-09-03T13:13:23Z",
+          "txs": 61,
+          "first_block": 25850539,
+          "last_block": 25897004
+        },
+        {
+          "c2": "193.247.144.38",
+          "ip1": "193.247.144.38",
+          "ip2": "193.247.144.38",
+          "first": "2026-09-04T00:49:11Z",
+          "last": "2026-09-17T08:24:59Z",
+          "txs": 85,
+          "first_block": 25900471,
+          "last_block": 25995999
+        },
+        {
+          "c2": "166.88.134.75",
+          "ip1": "166.88.134.75",
+          "ip2": "166.88.134.75",
+          "first": "2026-09-17T10:35:35Z",
+          "last": "2026-09-28T09:16:47Z",
+          "txs": 92,
+          "first_block": 25996649,
+          "last_block": 26074999
+        },
+        {
+          "c2": "91.218.183.174",
+          "ip1": "91.218.183.174",
+          "ip2": "91.218.183.174",
+          "first": "2026-09-28T10:18:59Z",
+          "last": "2026-10-06T04:38:47Z",
+          "txs": 67,
+          "first_block": 26075310,
+          "last_block": 26130999
+        },
+        {
+          "c2": "193.247.144.38",
+          "ip1": "193.247.144.38",
+          "ip2": "193.247.144.38",
+          "first": "2026-10-06T07:25:11Z",
+          "last": "2026-10-13T23:57:23Z",
+          "txs": 44,
+          "first_block": 26131829,
+          "last_block": 26187001
+        },
+        {
+          "c2": "23.27.13.72",
+          "ip1": "23.27.13.72",
+          "ip2": "23.27.13.72",
+          "first": "2026-10-14T00:06:59Z",
+          "last": "2026-10-14T00:14:59Z",
+          "txs": 5,
+          "first_block": 26187049,
+          "last_block": 26187089
+        },
+        {
+          "c2": "103.179.142.155",
+          "ip1": "103.179.142.155",
+          "ip2": "103.179.142.155",
+          "first": "2026-10-16T05:24:11Z",
+          "last": "2026-10-19T10:22:59Z",
+          "txs": 27,
+          "first_block": 26202979,
+          "last_block": 26225999
+        }
+      ],
+      "current": {
+        "c2": "103.179.142.155",
+        "ip1": "103.179.142.155",
+        "ip2": "103.179.142.155",
+        "first": "2026-10-16T05:24:11Z",
+        "last": "2026-10-19T10:22:59Z",
+        "txs": 27,
+        "first_block": 26202979,
+        "last_block": 26225999
+      },
+      "active": false,
+      "transfers": [
+        {
+          "time": "2026-07-25T06:35:35Z",
+          "direction": "in",
+          "peer": "0x4e5b2e1dc63f6b91cb6cd759936495434c7e972f",
+          "value_eth": "0.01763705",
+          "hash": "0x32a5d5ceaccff1fdb37d6eec4ceabb2fb88d3e6d64f237df5a443d5e55b22e30"
+        },
+        {
+          "time": "2026-07-30T09:08:23Z",
+          "direction": "in",
+          "peer": "0x96c8e62c0bae9e526f3122e5a5215069c6c0bd0c",
+          "value_eth": "0.03",
+          "hash": "0xf3a63f58092ecbb60c08b616e546972f6bc0f89ca933aeaa8cbc725d176f7891"
+        },
+        {
+          "time": "2026-08-25T01:44:47Z",
+          "direction": "in",
+          "peer": "0x52b6c7d261dc15c1aca11716191f40c41ff4d4d1",
+          "value_eth": "0.000004288236519866",
+          "hash": "0x2feb733f8787c251a949903008f197a0dc614dd08614c9ec6ab6e28e6edbe849"
+        },
+        {
+          "time": "2026-08-31T18:17:35Z",
+          "direction": "in",
+          "peer": "0x3072785956399713d922b2abee31811f13d9920b",
+          "value_eth": "0.000004454519154086",
+          "hash": "0xb7f434789f39fea834bd1008fee31dffa4b0cbd0db84f6ea243e77b5261ff0c4"
+        },
+        {
+          "time": "2026-09-02T10:26:23Z",
+          "direction": "in",
+          "peer": "0xf2340ca2eb0b49e7d40d2b9773ab00bf8a7f0c64",
+          "value_eth": "0.000003492926440914",
+          "hash": "0x10aef5dd878e513646d2c691f81b4306b2ddc4592060cae4c2414fbe995ce1e3"
+        },
+        {
+          "time": "2026-10-13T23:59:35Z",
+          "direction": "in",
+          "peer": "0xf97062cb1b6ffa18b88e9faea373ed288a87ecd0",
+          "value_eth": "0.02",
+          "hash": "0xa1664f890d2fe71d6f0e8f6d6a4ebb8211907640eb36d3ec5f32e549f4527edf"
+        },
+        {
+          "time": "2026-10-14T01:26:59Z",
+          "direction": "out",
+          "peer": "0xf97062cb1b6ffa18b88e9faea373ed288a87ecd0",
+          "value_eth": "0.029295496889655866",
+          "hash": "0x4bf2452cc48786f8f1c8c9158096d8984d5c07a0971a724d35c2534dca1e5409"
+        },
+        {
+          "time": "2026-10-16T05:16:11Z",
+          "direction": "in",
+          "peer": "0xf97062cb1b6ffa18b88e9faea373ed288a87ecd0",
+          "value_eth": "0.007",
+          "hash": "0xbd4e52d3c10195c499e41ff6632c712bb2b52d3ec89a5523d51ef8659f8a094d"
+        }
+      ]
+    },
+    {
+      "address": "0x1eef0849eda15d87f64e51c73c8442cf3c8bcef3",
+      "label": "second NullReceiver wallet, in the November 2026 fake-font loaders",
+      "pointers": 347,
+      "on_schedule": 314,
+      "marker": "helloipbot!!",
+      "periods": [
+        {
+          "c2": "166.88.134.75",
+          "ip1": "166.88.134.75",
+          "ip2": "166.88.134.75",
+          "first": "2026-09-04T05:18:35Z",
+          "last": "2026-09-12T11:21:23Z",
+          "txs": 61,
+          "first_block": 25901810,
+          "last_block": 25960999
+        },
+        {
+          "c2": "103.179.143.219",
+          "ip1": "103.179.143.219",
+          "ip2": "103.179.143.219",
+          "first": "2026-10-14T01:52:11Z",
+          "last": "2026-10-14T03:18:11Z",
+          "txs": 13,
+          "first_block": 26187571,
+          "last_block": 26187999
+        },
+        {
+          "c2": "23.27.13.72",
+          "ip1": "23.27.13.72",
+          "ip2": "23.27.13.72",
+          "first": "2026-10-14T04:52:35Z",
+          "last": "2026-10-14T04:52:35Z",
+          "txs": 1,
+          "first_block": 26188469,
+          "last_block": 26188469
+        },
+        {
+          "c2": "103.179.143.219",
+          "ip1": "103.179.143.219",
+          "ip2": "103.179.143.219",
+          "first": "2026-10-14T04:54:47Z",
+          "last": "2026-10-16T02:07:47Z",
+          "txs": 15,
+          "first_block": 26188480,
+          "last_block": 26201999
+        },
+        {
+          "c2": "95.135.181.151",
+          "ip1": "95.135.181.151",
+          "ip2": "95.135.181.151",
+          "first": "2026-10-16T05:00:23Z",
+          "last": "2026-11-12T22:57:47Z",
+          "txs": 194,
+          "first_block": 26202860,
+          "last_block": 26402000
+        },
+        {
+          "c2": "95.135.181.84",
+          "ip1": "95.135.181.84",
+          "ip2": "95.135.181.84",
+          "first": "2026-11-12T23:44:35Z",
+          "last": "2026-11-21T14:13:11Z",
+          "txs": 63,
+          "first_block": 26402232,
+          "last_block": 26464000
+        }
+      ],
+      "current": {
+        "c2": "95.135.181.84",
+        "ip1": "95.135.181.84",
+        "ip2": "95.135.181.84",
+        "first": "2026-11-12T23:44:35Z",
+        "last": "2026-11-21T14:13:11Z",
+        "txs": 63,
+        "first_block": 26402232,
+        "last_block": 26464000
+      },
+      "active": true,
+      "transfers": [
+        {
+          "time": "2026-10-14T01:47:35Z",
+          "direction": "in",
+          "peer": "0x4e5b2e1dc63f6b91cb6cd759936495434c7e972f",
+          "value_eth": "0.0206706",
+          "hash": "0xd1f09aa1a5fd50ce291a6e9a0784613df927f806e807949e05e9de05d1ddd06a"
+        },
+        {
+          "time": "2026-11-11T03:34:35Z",
+          "direction": "in",
+          "peer": "0xf97062cb1b6ffa18b88e9faea373ed288a87ecd0",
+          "value_eth": "0.06",
+          "hash": "0x47d8e6eb99887cb4be2f2d9162fe57a233b68e195dd83fbb72845369f1ef2502"
+        }
+      ]
+    }
+  ],
+  "bsc_indexes": [
+    {
+      "address": "0x596dcc9fda875309ff85eba09cf5a97d8c7691bb",
+      "label": "Ethereum index for BSC stages, from the 7 October 2026 loaders",
+      "pointers": 1290,
+      "on_schedule": 1086,
+      "stages": [
+        {
+          "bsc_block": 126083211,
+          "tx_index": 177,
+          "bsc_tx": "0x5a69aaeab0768b2bbc837fa4d025224d2f851218e1dc8f587bd862d6c73140b1",
+          "sender": "0x9bc1355344b54dedf3e44296916ed15653844509",
+          "nonce": 286,
+          "first": "2026-10-06T16:29:47Z",
+          "last": "2026-10-06T16:29:47Z",
+          "pointers": 1
+        },
+        {
+          "bsc_block": 126095683,
+          "tx_index": 78,
+          "bsc_tx": "0x465d3bb7f85897d62ddc1c775dfd13a34c95a3e68bed1197fb9ae1ff5ddea5d9",
+          "sender": "0x9bc1355344b54dedf3e44296916ed15653844509",
+          "nonce": 289,
+          "first": "2026-10-06T17:21:35Z",
+          "last": "2026-10-06T21:36:59Z",
+          "pointers": 6
+        },
+        {
+          "bsc_block": 126134174,
+          "tx_index": 82,
+          "bsc_tx": "0x9f8d2c3b9415cacea3569ff5b9580e668b5a5899107e328aa324140988adbeb8",
+          "sender": "0x9bc1355344b54dedf3e44296916ed15653844509",
+          "nonce": 292,
+          "first": "2026-10-06T22:28:23Z",
+          "last": "2026-10-20T14:24:11Z",
+          "pointers": 384
+        },
+        {
+          "bsc_block": 128754741,
+          "tx_index": 104,
+          "bsc_tx": "0x65842101e9ec5577de0b53e0ac65b9d1e1ba7ca0d8944079627b35f17a419d3e",
+          "sender": "0x9bc1355344b54dedf3e44296916ed15653844509",
+          "nonce": 325,
+          "first": "2026-10-20T15:15:59Z",
+          "last": "2026-10-22T15:10:35Z",
+          "pointers": 57
+        },
+        {
+          "bsc_block": 129154877,
+          "tx_index": 107,
+          "bsc_tx": "0x86fa4b3c15cef29510c02485d01955e2fe3a2be0d1ff23577028cf272347bb21",
+          "sender": "0x9bc1355344b54dedf3e44296916ed15653844509",
+          "nonce": 338,
+          "first": "2026-10-22T16:01:59Z",
+          "last": "2026-11-21T16:48:35Z",
+          "pointers": 842
+        }
+      ],
+      "active": true
+    }
+  ],
+  "tron_indexes": [
+    {
+      "address": "TMfKQEd7TJJa5xNZJZ2Lep838vrzrs7mAP",
+      "label": "chain 1 loader",
+      "outgoing": 27,
+      "pointers": 19,
+      "first": "2025-06-06T14:17:39Z",
+      "last": "2026-06-23T02:35:45Z",
+      "last_pointer": "0x18a8420f727f2405f9d1805ad887b31029b584b2ff5a7ec0f57c72635183e99d"
+    },
+    {
+      "address": "TXfxHUet9pJVU1BgVkBAbrES4YUc1nGzcG",
+      "label": "chain 2 loader",
+      "outgoing": 9,
+      "pointers": 9,
+      "first": "2025-06-13T05:50:06Z",
+      "last": "2026-06-20T13:37:54Z",
+      "last_pointer": "0x7ffb4efddd96e20aec90724be2ac9a71c138a9af697b9fb8224bbf80ea4f22be"
+    },
+    {
+      "address": "TLmj13VL4p6NQ7jpxz8d9uYY6FUKCYatSe",
+      "label": "RAT builds, first stream",
+      "outgoing": 58,
+      "pointers": 57,
+      "first": "2025-06-12T16:50:42Z",
+      "last": "2026-01-27T15:13:12Z",
+      "last_pointer": "0x804b000af7d7e4337ba5db28bb367da64a08391de09ffb07847ac897c5f82954"
+    },
+    {
+      "address": "TA48dct6rFW8BXsiLAtjFaVFoSuryMjD3v",
+      "label": "RAT builds, second stream",
+      "outgoing": 62,
+      "pointers": 62,
+      "first": "2025-11-14T14:03:21Z",
+      "last": "2026-06-08T21:29:42Z",
+      "last_pointer": "0xb6c725890be6890fd2c735eedc47e24b85a350301f6c19a3864e43c35e470968"
+    },
+    {
+      "address": "TCqf6ZkaQD84vYsC2cuu1jRwB6JveTaRrF",
+      "label": "2026 loaders, chain 1",
+      "outgoing": 29,
+      "pointers": 28,
+      "first": "2025-11-14T13:50:45Z",
+      "last": "2026-10-07T16:09:18Z",
+      "last_pointer": "0x964107fcc771daf0081fb492b286d1f53d95e751190f32999becf4a7266a2908"
+    },
+    {
+      "address": "TFMryB9m6d4kBMRjEVyFRbqKSV1cV2NcpH",
+      "label": "2026 loaders, chain 2",
+      "outgoing": 14,
+      "pointers": 14,
+      "first": "2025-11-19T14:03:54Z",
+      "last": "2026-10-07T16:23:48Z",
+      "last_pointer": "0x716aed01acb35ac7fb43918e53b2a535da52c6cb1e0e19f2f8257cc7cdbb09e0"
+    },
+    {
+      "address": "TPDBqDKAYfRVvVYDNZVxY8CRfovkwDaSgW",
+      "label": "Python RAT, one-shot",
+      "outgoing": 1,
+      "pointers": 1,
+      "first": "2026-03-10T15:45:45Z",
+      "last": "2026-03-10T15:45:45Z",
+      "last_pointer": "0x9faaf3c6b67ab5ac502c9d4a24bc08012dd5193e4f50332d5dec60791b4f636a"
+    }
+  ],
+  "bsc_writers": [
+    {
+      "address": "0x9bc1355344b54dedf3e44296916ed15653844509",
+      "label": "writes every BSC stage, to the burn address",
+      "nonce": 351,
+      "known_nonce": 297,
+      "unaccounted": 51,
+      "indexed": [
+        325,
+        338
+      ]
+    }
+  ]
+}

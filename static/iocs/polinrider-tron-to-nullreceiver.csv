@@ -1,0 +1,64 @@
+type,value,role,first_seen,notes
+sha256,10c473fa8bfb644edd9478c75881dae5c8746500ae4ea3585ec047e20f1fb978,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-19T16:13:39Z,TA48d -> BSC 0x3e87e34caca0383d76db34332813f31e2be88a24602f7b7b0a6bcd4dc0ed9d6e; VERSION -; does not parse (zero-width identifiers mangled when published)
+sha256,ca5d073018118350fd18858cd27ab491c05745d12c2449100f91bc25fc5d978c,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-19T17:25:18Z,TA48d -> BSC 0x66f61c8cf5d6bbfc2b1c0a91890497ca147dce45f6e968d2002ffa5e75211f38; VERSION -; does not parse (zero-width identifiers mangled when published)
+sha256,f5e5e5763c4c0a78fa48eb2fbca9989e61764120638a8d0384ad73bfef3e8f10,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-19T17:32:45Z,TA48d -> BSC 0x9140a49c97bfed874ad3d8e3670d1c24c3a6433818d23908e236c6441a324e10; VERSION 260519
+sha256,b3fa4550c1e7912f5cf5ee5fe9ea8acbdd11b8fddb14d274511bc1f71bce3385,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-20T15:05:06Z,TA48d -> BSC 0xd865c32814b1323355cd0925ef5c939737dbdbc2dad272e54dbb96842727fbd6; VERSION 260520
+sha256,04c153741f23027b2aa58b49bdadddcf5cabe158de4a5eeb5a0f2bc4601b22ed,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-20T15:07:36Z,TA48d -> BSC 0x126a8942a6058fc7ce883e322059d76b7615094e2d5c115991676cdbc3959695; VERSION 260520
+sha256,b77a2d17559fbdbea1a5cf730c1a6bfcfad426abe7d1fe161e452b51ec0e1f49,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-20T15:59:33Z,TA48d -> BSC 0x815a712af5b51226035493a75551d1379422ef3918ca4998b7d85dfd9dcfd5b7; VERSION 260521
+sha256,8291cc6418934e5065783e6dd70b845c8147918a2f1accc8f81eb230fabcccdb,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-21T12:38:39Z,TA48d -> BSC 0x571ca79be71260296e9d67fb2bebf5f4d314b9df2b461e2ab9eaece1a484f23c; VERSION 260522
+sha256,bc14f87891b2edf6c777b4a35bdbafb931a257855ba4082e309bd20795aa515d,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-21T12:54:15Z,TA48d -> BSC 0xceb3b0e24555c59415382d18a18a4839b50ed341e7d1568f8d095df3a4245531; VERSION 260523
+sha256,1529b70314ea193f2772340ec35236caf124b0a2765ff590952fed2927623e02,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-21T13:02:36Z,TA48d -> BSC 0xc43f48f34d6937626370962b155e7e1cca4a76e118df11c2fec57eb8c70624a7; VERSION 260524
+sha256,b0187f3e7dd59266c25883a93c750b4635a006100dc41a354d59129621d7dde9,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-21T13:09:48Z,TA48d -> BSC 0x1588991e1a5049b3a77305a9a09779d7a588686373a1436ebd56f30fe4d7be44; VERSION 260524
+sha256,94bd787aa0a33c58d436a963d676e9472fd4f73d0079e9e3f62dc5f269084cea,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-21T13:14:24Z,TA48d -> BSC 0xe7058ec299469f48bb38aac5b97f288139b89ff0e47b48fd98da4fa817df9c71; VERSION 260524
+sha256,6e04db01902fd46af2d9c91211355bccbabf91e277b03a7e649eb88ffae54120,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-21T13:20:45Z,TA48d -> BSC 0x615e2bd0fa06dfd8947aac85e09b672628c15d8cb276e808b72b297b626544e3; VERSION 260525
+sha256,23fbd06da6300d37b6d99b77609e58fa01a7fc9aaf0666caa8fab8ecadec4b3a,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-22T13:17:21Z,TA48d -> BSC 0xf188850b746bc8c467e95e7c3d2a6a47eb92211ab3cc69355e88d4f7375e31c5; VERSION 260526
+sha256,51b3e066be3c80653677cc70784c674342b7f70fa38f99a2f88fc57dd8244e1f,"RAT build, JS-Confuser over javascript-obfuscator",2026-05-23T16:28:27Z,TA48d -> BSC 0xfad600a962daefebe456f96989bfe5ec65ab4438e48fb788e1b9b59000d2cec9; VERSION 260527
+sha256,79b9cc922b602c000a27792092f621a10def5e6bb27d612ff00c8085386ed1b0,"RAT build, JS-Confuser over javascript-obfuscator",2026-06-02T16:01:39Z,TA48d -> BSC 0xa1eeb9dc3b5c4ae0f8c292c14ed9cfb50bdb4586ad01ada719bff648b89dfd51; VERSION 260601
+sha256,b2d871394e7d443b922642484c2bde3118aed1bf347c32f47a472ac1cf9eb284,"RAT build, JS-Confuser over javascript-obfuscator",2026-06-02T16:05:15Z,TA48d -> BSC 0x55574a62c1f2afbe528834f96ed44bca7d0a2ba151d8e4b177a31646cc415c7d; VERSION 260601
+sha256,842c8bfa46040168f7eda7b66dfad72e6da513f023ec155fddcc1d5f155153c8,"RAT build, JS-Confuser over javascript-obfuscator",2026-06-02T16:09:21Z,TA48d -> BSC 0x3bb80ebaa4ac38dd1c90a1689d3f2148d801225894a95e1b7757ea94429be198; VERSION 260602
+sha256,1bddca1ead0ab3300de1a991387005b940abb7f616af7ffbd111e8a3a0c9feb8,"RAT build, JS-Confuser over javascript-obfuscator",2026-06-02T16:51:57Z,TA48d -> BSC 0x8ba882519e64756d4c5ecb19bffc0cf65704956f73a0c984c16f6fdc9569c26a; VERSION 260603
+sha256,59d047c479b56825bbd86ab09b53921feb068dfbab631327a595cae93daf43e9,"RAT build, JS-Confuser over javascript-obfuscator",2026-06-02T16:54:39Z,TA48d -> BSC 0xa7de3a7764f31866c15a2b4075b381f9cedeb5bd9f27d7621eee3e1b7b59f36f; VERSION 260603
+sha256,78591a3ed0004499257505023a45b44209a4db0fb9e98c631bb0e1a4cf01a924,"RAT build, JS-Confuser over javascript-obfuscator",2026-06-03T12:41:51Z,TA48d -> BSC 0x54b8bde10ea26d9ae0702e6e590f0af3e500cb14fda876e908620760ac32b76c; VERSION 260603
+sha256,0c47e27f8e975800038683cb9ccd713e12bb697ff7dbb856a5609e1c6863f10a,"RAT build, JS-Confuser over javascript-obfuscator",2026-06-05T14:31:09Z,TA48d -> BSC 0x23fea476d18039a65bd438a4a071c2feb1530592b96ddf15c6ffb93acc03cd3f; VERSION 260604
+sha256,26351aed0397158d3a3b8cc8fd3047d4c015d264c9895f10f20f1521b974ed18,"RAT build, JS-Confuser over javascript-obfuscator",2026-06-08T21:29:42Z,TA48d -> BSC 0xb6c725890be6890fd2c735eedc47e24b85a350301f6c19a3864e43c35e470968; VERSION 260605
+sha256,9d9161c9b5ddf7a2160bb548d4f8e4a12c297e635287cd39ab8fd9685f6302f0,stage pointed to by the Ethereum index,2026-10-06T15:21Z,BSC block 126083211 tx 177 (0x5a69aaeab0768b2bbc837fa4d025224d2f851218e1dc8f587bd862d6c73140b1); pointed 2026-10-06 16:29 to 2026-10-06 16:29
+sha256,7313380fd75a9f7740fe15312ac68e64e9d226d769169d6f875106d0f31d8d06,stage pointed to by the Ethereum index,2026-10-06T16:55Z,BSC block 126095683 tx 78 (0x465d3bb7f85897d62ddc1c775dfd13a34c95a3e68bed1197fb9ae1ff5ddea5d9); pointed 2026-10-06 17:21 to 2026-10-06 21:36
+sha256,c069f2322e47a05e658dd22d9a8b17b1cfbc925dea0cb53a13b39f46d77ec149,stage pointed to by the Ethereum index,2026-10-06T21:44Z,BSC block 126134174 tx 82 (0x9f8d2c3b9415cacea3569ff5b9580e668b5a5899107e328aa324140988adbeb8); pointed 2026-10-06 22:28 to 2026-10-20 14:24
+sha256,b88bf93444e9862f49ce02aa8e07e5cabd647601aeeda076c8611d1f116cdd00,stage pointed to by the Ethereum index,2026-10-20T13:32Z,BSC block 128754741 tx 104 (0x65842101e9ec5577de0b53e0ac65b9d1e1ba7ca0d8944079627b35f17a419d3e); pointed 2026-10-20 15:15 to 2026-10-22 15:10
+sha256,79023ba175e1eab1a7ccdd5f9cfb8038b8a50d51afb223a29334d023e03d0d94,stage pointed to by the Ethereum index,2026-10-22T15:35Z,BSC block 129154877 tx 107 (0x86fa4b3c15cef29510c02485d01955e2fe3a2be0d1ff23577028cf272347bb21); pointed 2026-10-22 16:01 to 2026-11-21 15:58
+sha256,bf950899de9030d17dee99b6606b5de1c52b18bc88507624dec6507ac5f0a369,"chain 2 loader, does not parse",2026-09-08T13:02:15Z,TFMry; '})()var' where two pieces were concatenated
+sha256,bbea011a39231832eb9320bf73b28323c9e6151aee358505395036b2178c165a,"chain 2 loader, does not parse",2026-09-08T13:09:45Z,TFMry; '})()var' where two pieces were concatenated
+sha256,dcde5c7b0fd3baf1b22e397907d511f82f7af13b316a580f6cb4a1b78454ff45,"chain 2 loader, does not parse",2026-09-08T13:22:09Z,TFMry; '})()var' where two pieces were concatenated
+sha256,915ae429cc14904ac6c85080f4057247183d743801f23174aea9fc01569d03a7,loader reading the Ethereum index,2026-10-07T15:37:33Z,"TCqf6; key 8l%Sljl>J>U61O,n"
+sha256,680462cf3093c8ad799b490489fa721417809345e476eb4647eebaa1eae2bc16,loader reading the Ethereum index,2026-10-07T16:09:18Z,"TCqf6; key 8l%Sljl>J>U61O,n"
+sha256,0834410967e271c323d9ecb69e629c0dbc6e6e9c88c601f508d45fa19f0bc1b0,"NullReceiver loader (MalwareBazaar, PolinRider tag)",2026-11-07,SENDER 0x1eef0849...; plain source in the base64 variants
+sha256,1d3d863055b0b289ff8884b68c55c29e6529afb9550c24268d6f24c304616e88,"NullReceiver loader (MalwareBazaar, PolinRider tag)",2026-11-07,SENDER 0x1eef0849...; plain source in the base64 variants
+sha256,89c5914363d582b5c467db5fb5b83279bd4d1bbfe1660e97aa4d9abc7a871c02,"NullReceiver loader (MalwareBazaar, PolinRider tag)",2026-11-07,SENDER 0x1eef0849...; plain source in the base64 variants
+sha256,948f8acaf5783c4ef93c7884d643db248300b05780562a8e0f9668e260bd37b9,"NullReceiver loader (MalwareBazaar, PolinRider tag)",2026-11-07,SENDER 0x1eef0849...; plain source in the base64 variants
+sha256,a9f67e794eb6f4428ac64a331a747bffb3502c5ff0a08280288b4d20307e3980,"NullReceiver loader (MalwareBazaar, PolinRider tag)",2026-11-07,SENDER 0x1eef0849...; plain source in the base64 variants
+sha256,ca92a5d5286319008106d15de85dbb58d9160c6b8f02375dedbbf9be097427d6,"NullReceiver loader (MalwareBazaar, PolinRider tag)",2026-11-07,SENDER 0x1eef0849...; plain source in the base64 variants
+eth_address,0x596dcc9fda875309ff85eba09cf5a97d8c7691bb,Ethereum index for BSC stages,2026-10-06,"pointers to BSC block (bytes 0-3) and tx index (byte 4), 500 wei each (first three 100), 256-block schedule; still active 2026-11-21"
+eth_address,0x1eef0849eda15d87f64e51c73c8442cf3c8bcef3,NullReceiver C2 wallet,2026-09-04,"C2 in the recipient address, padding helloipbot!!, 1000-block schedule; still active 2026-11-21"
+eth_address,0xa322e5f3d311d3080e6f0121063e9adc2490ef1a,NullReceiver C2 wallet,2026-07-25,public since 2026-08-02 (OpenSourceMalware); quiet since 2026-10-19
+eth_address,0xf97062cb1b6ffa18b88e9faea373ed288a87ecd0,pays gas for both NullReceiver wallets,2026-09-03,"received a322's leftover ETH 2026-10-14; collects full-balance deposits, sends to LI.FI"
+eth_address,0x33ff3edaf55a8e03dcbc7cb40d498a49cd499891,funds the Ethereum index; earlier ip:port pointer wallet,2026-06-23,pointers to 23.27.20[.]187:80 and :443 June-July 2026
+bsc_address,0x9bc1355344b54dedf3e44296916ed15653844509,writes every BSC stage,2025-02-07,nonce 351 on 2026-11-21; 51 transactions after nonce 297 with no known index
+aptos_address,0x533b2dbcaeff19cd1f799234a27b578d713d8fcaa341b7501e4526106483e0b1,Aptos fallback for TA48d,2026-05-19,_t_2 in the loaders
+aptos_address,0x9d202c824402ca89e9aaccd2390b6f8b332ae743caa1469c695feb2781d56519,Aptos fallback for TCqf6,2026-02-25,_t_2 in the loaders
+aptos_address,0xbe037400670fbf1c32364f762975908dc43eeb38759263e7dfcdabc76380811e,Aptos fallback for TMfKQ,2026-03-04,_t_2 in the loaders
+xor_key,"8l%Sljl>J>U61O,n","stage key, Ethereum index",2026-10-07,
+xor_key,"q4FZkxX{!h,Sr3=@",NullReceiver /0x/cls,2026-11-07,X-Payload-B64 or body
+xor_key,y-p_>d$0B&@^1aQk,NullReceiver /0x/ls,2026-11-07,
+xor_key,ThZG+0jfXE6VAGOJ,chain 2 /$/boot,2026-03-26,
+xor_key,YU7m{rE/>|==b>#~,chain 2 /0/body,2026-09-08,
+ip,166.88.134[.]75,NullReceiver C2 (0x1eef0849...),2026-09-04T05:18:35Z,"until 2026-09-12T11:21:23Z, 61 pointers"
+ip,103.179.143[.]219,NullReceiver C2 (0x1eef0849...),2026-10-14T01:52:11Z,"until 2026-10-14T03:18:11Z, 13 pointers"
+ip,23.27.13[.]72,NullReceiver C2 (0x1eef0849...),2026-10-14T04:52:35Z,"until 2026-10-14T04:52:35Z, 1 pointers"
+ip,103.179.143[.]219,NullReceiver C2 (0x1eef0849...),2026-10-14T04:54:47Z,"until 2026-10-16T02:07:47Z, 15 pointers"
+ip,95.135.181[.]151,NullReceiver C2 (0x1eef0849...),2026-10-16T05:00:23Z,"until 2026-11-12T22:57:47Z, 194 pointers"
+ip,95.135.181[.]84,NullReceiver C2 (0x1eef0849...),2026-11-12T23:44:35Z,"until 2026-11-21T14:13:11Z, 63 pointers"
+ip,166.88.54[.]158,loader C2 by campaign tag,2026-05-20,"chain 1 and 2 loaders, _V starting with A"
+ip,23.27.13[.]43,loader C2 by campaign tag,2026-06-18,"chain 1 and 2 loaders, _V starting with A"
+ip,166.88.134[.]62,loader C2 by campaign tag,2026-06-23,"chain 1 loader, _V starting with A"
+ip,198.105.127[.]210,loader C2 by campaign tag,2026-05-19,"loaders, numeric _V; RAT SOCKET_URL :443, uploads :80"
+ip,23.27.202[.]27,loader C2 by campaign tag,2026-05-20,"loaders, any other _V; :443 and :27017"
